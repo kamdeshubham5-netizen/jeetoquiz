@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JeetoQuiz</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+  background:#080b12;
+  color:#fff;
+  min-height:100vh;
+}
+
+button{
+  border:0;
+  cursor:pointer;
+}
+
+.app{
+  width:100%;
+  max-width:480px;
+  min-height:100vh;
+  margin:auto;
+  background:linear-gradient(180deg,#101522,#080b12);
+  padding-bottom:30px;
+}
+
+.screen{
+  display:none;
+  padding:22px 18px;
+}
+
+.screen.active{
+  display:block;
+}
+
+/* LOGO */
+.logo{
+  text-align:center;
+  padding-top:45px;
+  margin-bottom:35px;
+}
+
+.logo-icon{
+  width:78px;
+  height:78px;
+  margin:auto;
+  border-radius:24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:40px;
+  background:linear-gradient(135deg,#ffd84d,#ff8a00);
+  box-shadow:0 10px 35px rgba(255,170,0,.25);
+}
+
+.logo h1{
+  margin-top:14px;
+  font-size:32px;
+}
+
+.logo p{
+  color:#8f99aa;
+  margin-top:6px;
+}
+
+/* INPUT */
+.input{
+  width:100%;
+  background:#151b28;
+  border:1px solid #293244;
+  color:#fff;
+  padding:16px;
+  border-radius:14px;
+  margin-bottom:13px;
+  outline:none;
+}
+
+.input:focus{
+  border-color:#ffbd27;
+}
+
+.primary{
+  width:100%;
+  padding:16px;
+  border-radius:14px;
+  background:linear-gradient(135deg,#ffc928,#ff8a00);
+  color:#111;
+  font-size:17px;
+  font-weight:bold;
+}
+
+.secondary{
+  width:100%;
+  padding:14px;
+  border-radius:14px;
+  background:#171e2c;
+  color:#fff;
+  border:1px solid #2a3448;
+}
+
+/* LANGUAGE */
+.title{
+  font-size:26px;
+  margin-bottom:8px;
+}
+
+.subtitle{
+  color:#8f99aa;
+  margin-bottom:22px;
+}
+
+.lang-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.lang{
+  padding:17px 12px;
+  border-radius:15px;
+  background:#151b28;
+  color:#fff;
+  border:1px solid #293244;
+  text-align:left;
+}
+
+.lang.selected{
+  border-color:#ffc928;
+  background:#211d13;
+}
+
+.lang strong{
+  display:block;
+  font-size:16px;
+}
+
+.lang span{
+  color:#8f99aa;
+  font-size:13px;
+}
+
+/* HEADER */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.user{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.avatar{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#ffc928,#ff7800);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#111;
+  font-weight:bold;
+}
+
+.user small{
+  color:#7e899c;
+}
+
+.header-icon{
+  background:#171e2c;
+  color:#fff;
+  padding:11px;
+  border-radius:12px;
+}
+
+/* WALLET */
+.wallet{
+  background:linear-gradient(135deg,#27200c,#151b27);
+  border:1px solid #594719;
+  border-radius:20px;
+  padding:20px;
+  margin-bottom:18px;
+}
+
+.wallet-label{
+  color:#b5a46d;
+  font-size:13px;
+}
+
+.points{
+  font-size:32px;
+  font-weight:bold;
+  margin:7px 0;
+}
+
+.wallet-note{
+  color:#8993a4;
+  font-size:12px;
+}
+
+/* PLAY */
+.play-card{
+  background:linear-gradient(135deg,#ffca28,#ff8700);
+  color:#111;
+  padding:23px;
+  border-radius:20px;
+  margin-bottom:18px;
+}
+
+.play-card h2{
+  margin-bottom:7px;
+}
+
+.play-card p{
+  opacity:.7;
+  margin-bottom:18px;
+}
+
+.play-btn{
+  background:#111;
+  color:#fff;
+  width:100%;
+  padding:15px;
+  border-radius:13px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+/* CARDS */
+.card{
+  background:#131a27;
+  border:1px solid #252e40;
+  border-radius:18px;
+  padding:18px;
+  margin-bottom:14px;
+}
+
+.card-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.card h3{
+  margin-bottom:5px;
+}
+
+.muted{
+  color:#8791a3;
+  font-size:13px;
+}
+
+/* CATEGORIES */
+.categories{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:11px;
+}
+
+.category{
+  padding:16px;
+  background:#131a27;
+  border:1px solid #252e40;
+  border-radius:15px;
+}
+
+.category-icon{
+  font-size:25px;
+  margin-bottom:8px;
+}
+
+.category span{
+  color:#a0a9b9;
+  font-size:13px;
+}
+
+/* QUIZ */
+.quiz-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:15px;
+}
+
+.progress{
+  height:7px;
+  background:#252d3c;
+  border-radius:10px;
+  overflow:hidden;
+  margin-bottom:18px;
+}
+
+.progress-bar{
+  height:100%;
+  width:6.6%;
+  background:linear-gradient(90deg,#ffc928,#ff8500);
+}
+
+.timer{
+  background:#251b0b;
+  border:1px solid #594719;
+  color:#ffc928;
+  padding:8px 12px;
+  border-radius:10px;
+  font-weight:bold;
+}
+
+.question{
+  font-size:22px;
+  line-height:1.35;
+  margin-bottom:18px;
+}
+
+.option{
+  width:100%;
+  padding:16px;
+  margin-bottom:11px;
+  background:#141b29;
+  color:#fff;
+  border:1px solid #293448;
+  border-radius:14px;
+  text-align:left;
+  font-size:15px;
+}
+
+.option:hover{
+  border-color:#ffc928;
+}
+
+.option.correct{
+  background:#12351e;
+  border-color:#35c76b;
+}
+
+.option.wrong{
+  background:#35151a;
+  border-color:#e84d5c;
+}
+
+.lifelines{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:9px;
+  margin-top:17px;
+}
+
+.life{
+  padding:12px 5px;
+  background:#171e2c;
+  color:#fff;
+  border:1px solid #293448;
+  border-radius:12px;
+  font-size:12px;
+}
+
+.life.used{
+  opacity:.35;
+  text-decoration:line-through;
+}
+
+/* LEADERBOARD */
+.rank{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:14px 0;
+  border-bottom:1px solid #252e3d;
+}
+
+.rank-num{
+  width:32px;
+  height:32px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#202838;
+}
+
+.rank-info{
+  flex:1;
+}
+
+.rank-points{
+  color:#ffc928;
+  font-weight:bold;
+}
+
+/* NAV */
+.nav{
+  position:fixed;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:100%;
+  max-width:480px;
+  background:#111722;
+  border-top:1px solid #252e3d;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  padding:8px 4px;
+  z-index:20;
+}
+
+.nav button{
+  background:none;
+  color:#727d90;
+  padding:7px 2px;
+  font-size:11px;
+}
+
+.nav button.active{
+  color:#ffc928;
+}
+
+.nav-icon{
+  display:block;
+  font-size:20px;
+  margin-bottom:3px;
+}
+
+/* TOAST */
+.toast{
+  position:fixed;
+  top:20px;
+  left:50%;
+  transform:translateX(-50%) translateY(-100px);
+  background:#1c2534;
+  border:1px solid #344158;
+  padding:13px 18px;
+  border-radius:12px;
+  z-index:50;
+  transition:.3s;
+  width:max-content;
+  max-width:90%;
+}
+
+.toast.show{
+  transform:translateX(-50%) translateY(0);
+}
+
+/* RESULT */
+.result{
+  text-align:center;
+  padding-top:50px;
+}
+
+.result-icon{
+  font-size:65px;
+  margin-bottom:15px;
+}
+
+.result h1{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+.result-points{
+  font-size:40px;
+  color:#ffc928;
+  font-weight:bold;
+  margin:20px 0;
+}
+
+/* PROFILE */
+.profile-head{
+  text-align:center;
+  padding:20px 0;
+}
+
+.big-avatar{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin:auto;
+  background:linear-gradient(135deg,#ffc928,#ff7b00);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#111;
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom:12px;
+}
+
+.setting{
+  padding:17px 0;
+  border-bottom:1px solid #252e3d;
+  display:flex;
+  justify-content:space-between;
+}
+
+.setting span{
+  color:#929cad;
+}
+
+@media(max-width:350px){
+  .screen{
+    padding-left:13px;
+    padding-right:13px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+<!-- LOGIN -->
+<section id="login" class="screen active">
+
+  <div class="logo">
+    <div class="logo-icon">🏆</div>
+    <h1>JeetoQuiz</h1>
+    <p>Play • Learn • Win Points</p>
+  </div>
+
+  <input id="mobile" class="input" type="tel"
+         placeholder="Mobile Number">
+
+  <input id="password" class="input" type="password"
+         placeholder="Password">
+
+  <button class="primary" onclick="login()">Login</button>
+
+  <p style="text-align:center;color:#778195;margin-top:16px;font-size:12px">
+    Your account stays active permanently
+  </p>
+
+</section>
+
+
+<!-- LANGUAGE -->
+<section id="language" class="screen">
+
+  <h1 class="title">Choose Language</h1>
+  <p class="subtitle">Select your preferred language</p>
+
+  <div class="lang-grid">
+
+    <button class="lang selected" onclick="selectLang(this,'English')">
+      <strong>English</strong>
+      <span>English</span>
+    </button>
+
+    <button class="lang" onclick="selectLang(this,'Hindi')">
+      <strong>हिन्दी</strong>
+      <span>Hindi</span>
+    </button>
+
+    <button class="lang" onclick="selectLang(this,'Marathi')">
+      <strong>मराठी</strong>
+      <span>Marathi</span>
+    </button>
+
+    <button class="lang" onclick="selectLang(this,'Gujarati')">
+      <strong>ગુજરાતી</strong>
+      <span>Gujarati</span>
+    </button>
+
+    <button class="lang" onclick="selectLang(this,'Punjabi')">
+      <strong>ਪੰਜਾਬੀ</strong>
+      <span>Punjabi</span>
+    </button>
+
+    <button class="lang" onclick="selectLang(this,'Bengali')">
+      <strong>বাংলা</strong>
+      <span>Bengali</span>
+    </button>
+
+    <button class="lang" onclick="selectLang(this,'Tamil')">
+      <strong>தமிழ்</strong>
+      <span>Tamil</span>
+    </button>
+
+    <button class="lang" onclick="selectLang(this,'Telugu')">
+      <strong>తెలుగు</strong>
+      <span>Telugu</span>
+    </button>
+
+  </div>
+
+  <button class="primary" style="margin-top:20px"
+          onclick="showScreen('lobby')">
+    Continue
+  </button>
+
+</section>
+
+
+<!-- LOBBY -->
+<section id="lobby" class="screen">
+
+  <div class="header">
+
+    <div class="user">
+      <div class="avatar">M</div>
+      <div>
+        <strong>Welcome, Player</strong>
+        <small>Jeeto ID: JQ102458</small>
+      </div>
+    </div>
+
+    <button class="header-icon" onclick="showScreen('profile')">⚙️</button>
+
+  </div>
+
+
+  <div class="wallet">
+
+    <div class="wallet-label">VIRTUAL WINNING BALANCE</div>
+
+    <div class="points" id="walletPoints">8,500</div>
+
+    <div class="wallet-note">
+      Game Points • No cash value • Non-withdrawable
+    </div>
+
+  </div>
+
+
+  <div class="play-card">
+
+    <h2>🎯 Ready to Play?</h2>
+
+    <p>15 questions • 1 minute each</p>
+
+    <button class="play-btn" onclick="startQuiz()">
+      ▶ Play Quiz
+    </button>
+
+  </div>
+
+
+  <div class="card">
+
+    <div class="card-row">
+
+      <div>
+        <h3>🏆 Leaderboard</h3>
+        <p class="muted">See top players</p>
+      </div>
+
+      <button class="secondary"
+              style="width:auto;padding:9px 13px"
+              onclick="showScreen('leaderboard')">
+        View
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <div class="card">
+
+    <div class="card-row">
+
+      <div>
+        <h3>📜 Game History</h3>
+        <p class="muted">Your previous games</p>
+      </div>
+
+      <button class="secondary"
+              style="width:auto;padding:9px 13px"
+              onclick="showScreen('history')">
+        View
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <h3 style="margin:22px 0 13px">Quiz Categories</h3>
+
+  <div class="categories">
+
+    <div class="category">
+      <div class="category-icon">🇮🇳</div>
+      <strong>India GK</strong>
+      <span>General Knowledge</span>
+    </div>
+
+    <div class="category">
+      <div class="category-icon">🌎</div>
+      <strong>World GK</strong>
+      <span>World Knowledge</span>
+    </div>
+
+    <div class="category">
+      <div class="category-icon">🔬</div>
+      <strong>Science</strong>
+      <span>Science & Nature</span>
+    </div>
+
+    <div class="category">
+      <div class="category-icon">🏏</div>
+      <strong>Sports</strong>
+      <span>Sports Quiz</span>
+    </div>
+
+    <div class="category">
+      <div class="category-icon">🎬</div>
+      <strong>Entertainment</strong>
+      <span>Movies & Music</span>
+    </div>
+
+    <div class="category">
+      <div class="category-icon">💻</div>
+      <strong>Technology</strong>
+      <span>Tech & Internet</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- QUIZ -->
+<section id="quiz" class="screen">
+
+  <div class="quiz-top">
+
+    <strong id="questionNumber">Question 1/15</strong>
+
+    <div class="timer" id="timer">01:00</div>
+
+  </div>
+
+  <div class="progress">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <div class="card">
+
+    <div class="muted" id="categoryLabel">
+      India GK • Easy
+    </div>
+
+    <div class="question" id="questionText">
+      Loading question...
+    </div>
+
+    <div id="options"></div>
+
+  </div>
+
+  <div class="lifelines">
+
+    <button class="life" id="life5050"
+            onclick="use5050()">
+      🔀 50:50
+    </button>
+
+    <button class="life" id="lifePoll"
+            onclick="audiencePoll()">
+      📊 Poll
+    </button>
+
+    <button class="life" id="lifeHint"
+            onclick="hint()">
+      💡 Hint
+    </button>
+
+  </div>
+
+</section>
+
+
+<!-- RESULT -->
+<section id="result" class="screen">
+
+  <div class="result">
+
+    <div class="result-icon">🎉</div>
+
+    <h1>Quiz Complete!</h1>
+
+    <p class="muted">Your virtual points earned</p>
+
+    <div class="result-points" id="resultPoints">
+      +0
+    </div>
+
+    <p id="resultCorrect" class="muted">
+      0 / 15 Correct
+    </p>
+
+    <button class="primary"
+            style="margin-top:25px"
+            onclick="showScreen('lobby')">
+      Back to Lobby
+    </button>
+
+  </div>
+
+</section>
+
+
+<!-- LEADERBOARD -->
+<section id="leaderboard" class="screen">
+
+  <h1 class="title">🏆 Leaderboard</h1>
+  <p class="subtitle">Top JeetoQuiz players</p>
+
+  <div class="card">
+
+    <div class="rank">
+      <div class="rank-num">1</div>
+      <div class="rank-info">
+        <strong>Quiz Master</strong>
+        <div class="muted">JQ102001</div>
+      </div>
+      <div class="rank-points">52,500</div>
+    </div>
+
+    <div class="rank">
+      <div class="rank-num">2</div>
+      <div class="rank-info">
+        <strong>Knowledge King</strong>
+        <div class="muted">JQ102112</div>
+      </div>
+      <div class="rank-points">48,200</div>
+    </div>
+
+    <div class="rank">
+      <div class="rank-num">3</div>
+      <div class="rank-info">
+        <strong>Quiz Champ</strong>
+        <div class="muted">JQ102233</div>
+      </div>
+      <div class="rank-points">44,800</div>
+    </div>
+
+    <div class="rank">
+      <div class="rank-num">4</div>
+      <div class="rank-info">
+        <strong>Smart Player</strong>
+        <div class="muted">JQ102344</div>
+      </div>
+      <div class="rank-points">41,500</div>
+    </div>
+
+    <div class="rank">
+      <div class="rank-num">5</div>
+      <div class="rank-info">
+        <strong>Brain Box</strong>
+        <div class="muted">JQ102455</div>
+      </div>
+      <div class="rank-points">39,700</div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- HISTORY -->
+<section id="history" class="screen">
+
+  <h1 class="title">📜 Game History</h1>
+  <p class="subtitle">Your recent quiz activity</p>
+
+  <div class="card">
+
+    <div class="card-row">
+      <div>
+        <strong>Quiz #1025</strong>
+        <p class="muted">15 Questions • India GK</p>
+      </div>
+      <strong style="color:#ffc928">+2,500</strong>
+    </div>
+
+  </div>
+
+  <div class="card">
+
+    <div class="card-row">
+      <div>
+        <strong>Quiz #1024</strong>
+        <p class="muted">15 Questions • Science</p>
+      </div>
+      <strong style="color:#ffc928">+1,500</strong>
+    </div>
+
+  </div>
+
+  <div class="card">
+
+    <div class="card-row">
+      <div>
+        <strong>Quiz #1023</strong>
+        <p class="muted">15 Questions • Sports</p>
+      </div>
+      <strong style="color:#ffc928">+3,000</strong>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROFILE -->
+<section id="profile" class="screen">
+
+  <div class="profile-head">
+
+    <div class="big-avatar">M</div>
+
+    <h2>Player</h2>
+
+    <p class="muted">Jeeto ID: JQ102458</p>
+
+  </div>
+
+  <div class="card">
+
+    <div class="setting">
+      <strong>Name</strong>
+      <span>Player</span>
+    </div>
+
+    <div class="setting">
+      <strong>Mobile</strong>
+      <span>••••••4582</span>
+    </div>
+
+    <div class="setting">
+      <strong>Language</strong>
+      <span>English</span>
+    </div>
+
+    <div class="setting">
+      <strong>Account</strong>
+      <span>Active</span>
+    </div>
+
+  </div>
+
+  <button class="secondary"
+          onclick="showScreen('language')">
+    🌐 Change Language
+  </button>
+
+  <button class="secondary"
+          style="margin-top:10px"
+          onclick="alert('Password change will be connected to the secure backend.')">
+    🔐 Change Password
+  </button>
+
+  <button class="secondary"
+          style="margin-top:10px"
+          onclick="alert('Telegram Support will be connected here.')">
+    💬 Help & Support
+  </button>
+
+</section>
+
+
+<!-- BOTTOM NAV -->
+<div class="nav" id="bottomNav" style="display:none">
+
+  <button onclick="showScreen('lobby')" class="active">
+    <span class="nav-icon">🏠</span>
+    Home
+  </button>
+
+  <button onclick="startQuiz()">
+    <span class="nav-icon">🎮</span>
+    Play
+  </button>
+
+  <button onclick="showScreen('leaderboard')">
+    <span class="nav-icon">🏆</span>
+    Rank
+  </button>
+
+  <button onclick="showScreen('profile')">
+    <span class="nav-icon">👤</span>
+    Profile
+  </button>
+
+</div>
+
+</div>
+
+
+<div class="toast" id="toast"></div>
+
+
+<script>
+
+let currentQuestion = 0;
+let correctAnswers = 0;
+let earnedPoints = 0;
+let timer;
+let timeLeft = 60;
+let answered = false;
+
+const questions = [
+
+{
+ q:"What is the capital of India?",
+ options:["Mumbai","New Delhi","Kolkata","Chennai"],
+ answer:1,
+ category:"India GK",
+ difficulty:"Easy",
+ points:500
+},
+
+{
+ q:"Which planet is known as the Red Planet?",
+ options:["Earth","Mars","Jupiter","Venus"],
+ answer:1,
+ category:"Science",
+ difficulty:"Easy",
+ points:500
+},
+
+{
+ q:"Who is known as the Father of the Nation in India?",
+ options:["Sardar Patel","Mahatma Gandhi","Jawaharlal Nehru","B. R. Ambedkar"],
+ answer:1,
+ category:"India GK",
+ difficulty:"Easy",
+ points:1000
+},
+
+{
+ q:"How many players are there in a cricket team?",
+ options:["9","10","11","12"],
+ answer:2,
+ category:"Sports",
+ difficulty:"Easy",
+ points:1000
+},
+
+{
+ q:"Which is the largest ocean in the world?",
+ options:["Atlantic Ocean","Indian Ocean","Pacific Ocean","Arctic Ocean"],
+ answer:2,
+ category:"World GK",
+ difficulty:"Easy",
+ points:1500
+},
+
+{
+ q:"Which gas do plants absorb from the atmosphere?",
+ options:["Oxygen","Nitrogen","Carbon Dioxide","Hydrogen"],
+ answer:2,
+ category:"Science",
+ difficulty:"Easy",
+ points:1500
+},
+
+{
+ q:"Which is the longest river in India?",
+ options:["Ganga","Yamuna","Godavari","Narmada"],
+ answer:0,
+ category:"Geography",
+ difficulty:"Medium",
+ points:2000
+},
+
+{
+ q:"Who wrote the Indian National Anthem?",
+ options:["Rabindranath Tagore","Bankim Chandra Chatterjee","Sarojini Naidu","Subhash Chandra Bose"],
+ answer:0,
+ category:"India GK",
+ difficulty:"Medium",
+ points:2000
+},
+
+{
+ q:"Which device is used to measure temperature?",
+ options:["Barometer","Thermometer","Hygrometer","Altimeter"],
+ answer:1,
+ category:"Science",
+ difficulty:"Easy",
+ points:2500
+},
+
+{
+ q:"Which country hosted the 2016 Summer Olympics?",
+ options:["China","Brazil","Japan","UK"],
+ answer:1,
+ category:"Sports",
+ difficulty:"Medium",
+ points:2500
+},
+
+{
+ q:"What does CPU stand for?",
+ options:["Central Processing Unit","Computer Personal Unit","Central Program Utility","Control Processing Unit"],
+ answer:0,
+ category:"Technology",
+ difficulty:"Medium",
+ points:3000
+},
+
+{
+ q:"Which is the smallest state of India by area?",
+ options:["Goa","Sikkim","Tripura","Mizoram"],
+ answer:0,
+ category:"India GK",
+ difficulty:"Medium",
+ points:3000
+},
+
+{
+ q:"Who was the first President of India?",
+ options:["Dr. Rajendra Prasad","Dr. S. Radhakrishnan","Jawaharlal Nehru","Zakir Husain"],
+ answer:0,
+ category:"History",
+ difficulty:"Medium",
+ points:3500
+},
+
+{
+ q:"Which continent is the Sahara Desert located in?",
+ options:["Asia","Africa","Australia","Europe"],
+ answer:1,
+ category:"Geography",
+ difficulty:"Easy",
+ points:4000
+},
+
+{
+ q:"Which language is primarily used to structure a web page?",
+ options:["HTML","Python","SQL","C++"],
+ answer:0,
+ category:"Technology",
+ difficulty:"Easy",
+ points:5000
+}
+
+];
+
+
+function showScreen(id){
+
+  document.querySelectorAll(".screen")
+  .forEach(s=>s.classList.remove("active"));
+
+  document.getElementById(id).classList.add("active");
+
+  const nav=document.getElementById("bottomNav");
+
+  if(id==="lobby" || id==="leaderboard" ||
+     id==="history" || id==="profile"){
+    nav.style.display="grid";
+  }else{
+    nav.style.display="none";
+  }
+
+  window.scrollTo(0,0);
+}
+
+
+function login(){
+
+  const mobile=document.getElementById("mobile").value;
+  const password=document.getElementById("password").value;
+
+  if(mobile.length<10 || password.length<4){
+
+    toast("Please enter valid mobile and password");
+
+    return;
+  }
+
+  showScreen("language");
+
+}
+
+
+function selectLang(button,language){
+
+  document.querySelectorAll(".lang")
+  .forEach(x=>x.classList.remove("selected"));
+
+  button.classList.add("selected");
+
+  toast(language+" selected");
+
+}
+
+
+function startQuiz(){
+
+  currentQuestion=0;
+  correctAnswers=0;
+  earnedPoints=0;
+
+  showScreen("quiz");
+
+  loadQuestion();
+
+}
+
+
+function loadQuestion(){
+
+  clearInterval(timer);
+
+  if(currentQuestion>=questions.length){
+
+    finishQuiz();
+
+    return;
+  }
+
+  answered=false;
+
+  timeLeft=60;
+
+  const q=questions[currentQuestion];
+
+  document.getElementById("questionNumber").innerText=
+    "Question "+(currentQuestion+1)+"/15";
+
+  document.getElementById("categoryLabel").innerText=
+    q.category+" • "+q.difficulty;
+
+  document.getElementById("questionText").innerText=q.q;
+
+  document.getElementById("progressBar").style.width=
+    ((currentQuestion+1)/15*100)+"%";
+
+  const options=document.getElementById("options");
+
+  options.innerHTML="";
+
+  q.options.forEach((option,index)=>{
+
+    const btn=document.createElement("button");
+
+    btn.className="option";
+
+    btn.innerText=
+      String.fromCharCode(65+index)+". "+option;
+
+    btn.onclick=()=>answer(index,btn);
+
+    options.appendChild(btn);
+
+  });
+
+  document.getElementById("timer").innerText="01:00";
+
+  timer=setInterval(()=>{
+
+    timeLeft--;
+
+    document.getElementById("timer").innerText=
+      "00:"+String(timeLeft).padStart(2,"0");
+
+    if(timeLeft<=0){
+
+      clearInterval(timer);
+
+      toast("Time's up!");
+
+      nextQuestion();
+
+    }
+
+  },1000);
+
+}
+
+
+function answer(index,button){
+
+  if(answered) return;
+
+  answered=true;
+
+  clearInterval(timer);
+
+  const q=questions[currentQuestion];
+
+  const buttons=document.querySelectorAll(".option");
+
+  buttons[q.answer].classList.add("correct");
+
+  if(index===q.answer){
+
+    button.classList.add("correct");
+
+    correctAnswers++;
+
+    earnedPoints+=q.points;
+
+    toast("Correct! +"+q.points+" Virtual Points");
+
+  }else{
+
+    button.classList.add("wrong");
+
+    toast("Wrong answer");
+
+  }
+
+  setTimeout(nextQuestion,1200);
+
+}
+
+
+function nextQuestion(){
+
+  currentQuestion++;
+
+  loadQuestion();
+
+}
+
+
+function finishQuiz(){
+
+  document.getElementById("resultPoints").innerText=
+    "+"+earnedPoints.toLocaleString();
+
+  document.getElementById("resultCorrect").innerText=
+    correctAnswers+" / 15 Correct";
+
+  const wallet=document.getElementById("walletPoints");
+
+  let current=parseInt(wallet.innerText.replace(/,/g,""));
+
+  wallet.innerText=
+    (current+earnedPoints).toLocaleString();
+
+  showScreen("result");
+
+}
+
+
+function use5050(){
+
+  const btn=document.getElementById("life5050");
+
+  if(btn.classList.contains("used")){
+
+    toast("50:50 already used");
+
+    return;
+  }
+
+  btn.classList.add("used");
+
+  const q=questions[currentQuestion];
+
+  const buttons=document.querySelectorAll(".option");
+
+  let removed=0;
+
+  buttons.forEach((b,i)=>{
+
+    if(i!==q.answer && removed<2){
+
+      b.style.visibility="hidden";
+
+      removed++;
+
+    }
+
+  });
+
+  toast("Two wrong options removed");
+
+}
+
+
+function audiencePoll(){
+
+  const btn=document.getElementById("lifePoll");
+
+  if(btn.classList.contains("used")){
+
+    toast("Audience Poll already used");
+
+    return;
+  }
+
+  btn.classList.add("used");
+
+  const q=questions[currentQuestion];
+
+  const correctPercent=Math.floor(Math.random()*25)+60;
+
+  toast("Audience says "+correctPercent+"% chose "+
+
+    String.fromCharCode(65+q.answer));
+
+}
+
+
+function hint(){
+
+  const btn=document.getElementById("lifeHint");
+
+  if(btn.classList.contains("used")){
+
+    toast("Hint already used");
+
+    return;
+  }
+
+  btn.classList.add("used");
+
+  const q=questions[currentQuestion];
+
+  toast("Hint: Think about the correct option carefully.");
+
+}
+
+
+function toast(message){
+
+  const el=document.getElementById("toast");
+
+  el.innerText=message;
+
+  el.classList.add("show");
+
+  setTimeout(()=>{
+
+    el.classList.remove("show");
+
+  },2200);
+
+}
+
+</script>
+
+</body>
+</html>

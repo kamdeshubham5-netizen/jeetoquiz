@@ -2379,3 +2379,238 @@
   answer: 1,
   explanation: "HTTPS में S का अर्थ Secure है और यह सुरक्षित वेब संचार से संबंधित है।"
 },
+{
+  id: 251,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय वृक्ष कौन सा है?",
+  options: ["नीम", "बरगद", "पीपल", "आम"],
+  answer: 1,
+  explanation: "बरगद भारत का राष्ट्रीय वृक्ष है।"
+},
+{
+  id: 252,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय फल कौन सा है?",
+  options: ["सेब", "केला", "आम", "संतरा"],
+  answer: 2,
+  explanation: "आम भारत का राष्ट्रीय फल माना जाता है।"
+},
+{
+  id: 253,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय जलीय जीव कौन सा है?",
+  options: ["गंगा डॉल्फिन", "व्हेल", "मगरमच्छ", "कछुआ"],
+  answer: 0,
+  explanation: "गंगा डॉल्फिन भारत का राष्ट्रीय जलीय जीव है।"
+},
+{
+  id: 254,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारतीय संविधान कब लागू हुआ था?",
+  options: ["15 अगस्त 1947", "26 जनवरी 1950", "26 नवंबर 1949", "2 अक्टूबर 1950"],
+  answer: 1,
+  explanation: "भारतीय संविधान 26 जनवरी 1950 को लागू हुआ।"
+},
+{
+  id: 255,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत को स्वतंत्रता कब मिली?",
+  options: ["26 जनवरी 1950", "15 अगस्त 1947", "26 नवंबर 1949", "2 अक्टूबर 1947"],
+  answer: 1,
+  explanation: "भारत 15 अगस्त 1947 को स्वतंत्र हुआ।"
+},
+{
+  id: 256,
+  category: "History",
+  difficulty: "Easy",
+  question: "महात्मा गांधी का जन्म किस वर्ष हुआ था?",
+  options: ["1869", "1875", "1885", "1890"],
+  answer: 0,
+  explanation: "महात्मा गांधी का जन्म 2 अक्टूबर 1869 को हुआ था।"
+},
+{
+  id: 257,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ था?",
+  options: ["1930", "1935", "1942", "1947"],
+  answer: 2,
+  explanation: "भारत छोड़ो आंदोलन 1942 में शुरू हुआ था।"
+},
+{
+  id: 258,
+  category: "History",
+  difficulty: "Easy",
+  question: "जलियांवाला बाग हत्याकांड किस वर्ष हुआ था?",
+  options: ["1915", "1919", "1922", "1930"],
+  answer: 1,
+  explanation: "जलियांवाला बाग हत्याकांड 13 अप्रैल 1919 को हुआ था।"
+},
+{
+  id: 259,
+  category: "History",
+  difficulty: "Medium",
+  question: "भारत के पहले राष्ट्रपति कौन थे?",
+  options: ["डॉ. राजेंद्र प्रसाद", "डॉ. एस. राधाकृष्णन", "जवाहरलाल नेहरू", "सरदार पटेल"],
+  answer: 0,
+  explanation: "डॉ. राजेंद्र प्रसाद भारत के पहले राष्ट्रपति थे।"
+},
+{
+  id: 260,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत के पहले प्रधानमंत्री कौन थे?",
+  options: ["सरदार पटेल", "जवाहरलाल नेहरू", "राजेंद्र प्रसाद", "लाल बहादुर शास्त्री"],
+  answer: 1,
+  explanation: "जवाहरलाल नेहरू स्वतंत्र भारत के पहले प्रधानमंत्री थे।"
+},
+{
+  id: 261,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत की सबसे लंबी नदी कौन सी है?",
+  options: ["यमुना", "गंगा", "गोदावरी", "नर्मदा"],
+  answer: 1,
+  explanation: "गंगा भारत की सबसे लंबी नदी है।"
+},
+{
+  id: 262,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत का सबसे बड़ा राज्य क्षेत्रफल के आधार पर कौन सा है?",
+  options: ["मध्य प्रदेश", "महाराष्ट्र", "राजस्थान", "उत्तर प्रदेश"],
+  answer: 2,
+  explanation: "क्षेत्रफल के आधार पर राजस्थान भारत का सबसे बड़ा राज्य है।"
+},
+{
+  id: 263,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत का सबसे छोटा राज्य क्षेत्रफल के आधार पर कौन सा है?",
+  options: ["गोवा", "सिक्किम", "त्रिपुरा", "मणिपुर"],
+  answer: 0,
+  explanation: "क्षेत्रफल के आधार पर गोवा भारत का सबसे छोटा राज्य है।"
+},
+{
+  id: 264,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत में स्थित सबसे ऊंची पर्वत चोटी कौन सी है?",
+  options: ["नंदा देवी", "कंचनजंघा", "कामेत", "अनामुडी"],
+  answer: 1,
+  explanation: "कंचनजंघा भारत की सबसे ऊंची पर्वत चोटी है।"
+},
+{
+  id: 265,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "नर्मदा नदी किस दिशा में मुख्य रूप से बहती है?",
+  options: ["पूर्व", "पश्चिम", "उत्तर", "दक्षिण"],
+  answer: 1,
+  explanation: "नर्मदा नदी मुख्य रूप से पश्चिम दिशा में बहती है।"
+},
+{
+  id: 266,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पानी का रासायनिक सूत्र क्या है?",
+  options: ["CO₂", "O₂", "H₂O", "NaCl"],
+  answer: 2,
+  explanation: "पानी का रासायनिक सूत्र H₂O है।"
+},
+{
+  id: 267,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मनुष्य के शरीर में रक्त को पंप करने वाला अंग कौन सा है?",
+  options: ["फेफड़ा", "हृदय", "यकृत", "गुर्दा"],
+  answer: 1,
+  explanation: "हृदय शरीर में रक्त को पंप करता है।"
+},
+{
+  id: 268,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पौधे प्रकाश संश्लेषण के दौरान किस गैस का उपयोग करते हैं?",
+  options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+  answer: 2,
+  explanation: "पौधे प्रकाश संश्लेषण के लिए कार्बन डाइऑक्साइड का उपयोग करते हैं।"
+},
+{
+  id: 269,
+  category: "Science",
+  difficulty: "Easy",
+  question: "सूर्य के सबसे निकट कौन सा ग्रह है?",
+  options: ["शुक्र", "पृथ्वी", "बुध", "मंगल"],
+  answer: 2,
+  explanation: "बुध सूर्य के सबसे निकट का ग्रह है।"
+},
+{
+  id: 270,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पृथ्वी का प्राकृतिक उपग्रह कौन सा है?",
+  options: ["सूर्य", "चंद्रमा", "मंगल", "शुक्र"],
+  answer: 1,
+  explanation: "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
+},
+{
+  id: 271,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "क्रिकेट में एक ओवर में सामान्यतः कितनी गेंदें होती हैं?",
+  options: ["4", "5", "6", "8"],
+  answer: 2,
+  explanation: "क्रिकेट के सामान्य ओवर में 6 वैध गेंदें होती हैं।"
+},
+{
+  id: 272,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "फुटबॉल की एक टीम में मैदान पर कितने खिलाड़ी होते हैं?",
+  options: ["9", "10", "11", "12"],
+  answer: 2,
+  explanation: "फुटबॉल की एक टीम में मैदान पर 11 खिलाड़ी होते हैं।"
+},
+{
+  id: 273,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "ओलंपिक खेल कितने छल्लों वाले प्रतीक से जुड़े हैं?",
+  options: ["4", "5", "6", "7"],
+  answer: 1,
+  explanation: "ओलंपिक प्रतीक में पांच आपस में जुड़े छल्ले होते हैं।"
+},
+{
+  id: 274,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CPU का पूरा नाम क्या है?",
+  options: [
+    "Central Processing Unit",
+    "Computer Personal Unit",
+    "Central Program Utility",
+    "Computer Processing Utility"
+  ],
+  answer: 0,
+  explanation: "CPU का पूरा नाम Central Processing Unit है।"
+},
+{
+  id: 275,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "WWW का पूरा नाम क्या है?",
+  options: [
+    "World Wide Web",
+    "World Web Window",
+    "Wide World Web",
+    "Web World Wide"
+  ],
+  answer: 0,
+  explanation: "WWW का पूरा नाम World Wide Web है।"
+},

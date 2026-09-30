@@ -1,4 +1,4 @@
-{
+[
   id: 51,
   category: "India GK",
   difficulty: "Easy",
@@ -3299,4 +3299,4 @@
   options: ["SMTP", "HTTP", "FTP", "HTML"],
   answer: 0,
   explanation: "SMTP का उपयोग ईमेल भेजने के लिए किया जाता है।"
-}
+];

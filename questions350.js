@@ -2612,5 +2612,243 @@
     "Web World Wide"
   ],
   answer: 0,
-  explanation: "WWW का पूरा नाम World Wide Web है।"
+  explanation: "WWW का पूरा नाम World Wide Web {
+  id: 301,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय गीत कौन सा है?",
+  options: ["जन गण मन", "वंदे मातरम्", "सारे जहाँ से अच्छा", "ऐ मेरे वतन के लोगों"],
+  answer: 1,
+  explanation: "वंदे मातरम् भारत का राष्ट्रीय गीत है।"
+},
+{
+  id: 302,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय गान कौन सा है?",
+  options: ["वंदे मातरम्", "जन गण मन", "सारे जहाँ से अच्छा", "जय हो"],
+  answer: 1,
+  explanation: "जन गण मन भारत का राष्ट्रीय गान है।"
+},
+{
+  id: 303,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारतीय मुद्रा का नाम क्या है?",
+  options: ["डॉलर", "रुपया", "टका", "दिनार"],
+  answer: 1,
+  explanation: "भारत की मुद्रा भारतीय रुपया है।"
+},
+{
+  id: 304,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारतीय रुपये का प्रतीक क्या है?",
+  options: ["$", "€", "₹", "£"],
+  answer: 2,
+  explanation: "भारतीय रुपये का प्रतीक ₹ है।"
+},
+{
+  id: 305,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारतीय संसद के कितने सदन हैं?",
+  options: ["एक", "दो", "तीन", "चार"],
+  answer: 1,
+  explanation: "भारतीय संसद के दो सदन हैं—लोकसभा और राज्यसभा।"
+},
+{
+  id: 306,
+  category: "Civics",
+  difficulty: "Easy",
+  question: "लोकसभा को आमतौर पर किस नाम से जाना जाता है?",
+  options: ["उच्च सदन", "निचला सदन", "राज्य सदन", "न्याय सदन"],
+  answer: 1,
+  explanation: "लोकसभा संसद का निचला सदन है।"
+},
+{
+  id: 307,
+  category: "Civics",
+  difficulty: "Easy",
+  question: "राज्यसभा को आमतौर पर किस नाम से जाना जाता है?",
+  options: ["निचला सदन", "उच्च सदन", "जन सदन", "ग्राम सदन"],
+  answer: 1,
+  explanation: "राज्यसभा संसद का उच्च सदन है।"
+},
+{
+  id: 308,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत का सबसे दक्षिणी राज्य कौन सा है?",
+  options: ["केरल", "तमिलनाडु", "कर्नाटक", "आंध्र प्रदेश"],
+  answer: 1,
+  explanation: "तमिलनाडु भारत के मुख्य भूभाग का सबसे दक्षिणी राज्य है।"
+},
+{
+  id: 309,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत के पश्चिम में कौन सा सागर स्थित है?",
+  options: ["अरब सागर", "बंगाल की खाड़ी", "हिंद महासागर", "लाल सागर"],
+  answer: 0,
+  explanation: "भारत के पश्चिम में अरब सागर स्थित है।"
+},
+{
+  id: 310,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत के पूर्व में कौन सी खाड़ी स्थित है?",
+  options: ["अरब सागर", "बंगाल की खाड़ी", "फारस की खाड़ी", "मन्नार की खाड़ी"],
+  answer: 1,
+  explanation: "भारत के पूर्व में बंगाल की खाड़ी स्थित है।"
+},
+{
+  id: 311,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "गंगा नदी का उद्गम किस हिमनद से माना जाता है?",
+  options: ["सियाचिन", "गंगोत्री", "पिंडारी", "मिलम"],
+  answer: 1,
+  explanation: "भागीरथी नदी का उद्गम गंगोत्री हिमनद से माना जाता है।"
+},
+{
+  id: 312,
+  category: "Science",
+  difficulty: "Easy",
+  question: "वायुमंडल में सबसे अधिक मात्रा में कौन सी गैस है?",
+  options: ["ऑक्सीजन", "कार्बन डाइऑक्साइड", "नाइट्रोजन", "हाइड्रोजन"],
+  answer: 2,
+  explanation: "पृथ्वी के वायुमंडल में नाइट्रोजन सबसे अधिक मात्रा में है।"
+},
+{
+  id: 313,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मानव शरीर का सबसे बड़ा अंग कौन सा है?",
+  options: ["हृदय", "त्वचा", "यकृत", "फेफड़ा"],
+  answer: 1,
+  explanation: "त्वचा मानव शरीर का सबसे बड़ा अंग है।"
+},
+{
+  id: 314,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पौधों में हरा रंग किस वर्णक के कारण होता है?",
+  options: ["हीमोग्लोबिन", "क्लोरोफिल", "मेलानिन", "कैरोटीन"],
+  answer: 1,
+  explanation: "क्लोरोफिल पौधों को हरा रंग देता है और प्रकाश संश्लेषण में महत्वपूर्ण है।"
+},
+{
+  id: 315,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पृथ्वी सूर्य की परिक्रमा लगभग कितने समय में पूरी करती है?",
+  options: ["24 घंटे", "30 दिन", "365 दिन", "12 घंटे"],
+  answer: 2,
+  explanation: "पृथ्वी सूर्य की एक परिक्रमा लगभग 365.25 दिनों में पूरी करती है।"
+},
+{
+  id: 316,
+  category: "Science",
+  difficulty: "Easy",
+  question: "बल की SI इकाई क्या है?",
+  options: ["जूल", "वाट", "न्यूटन", "पास्कल"],
+  answer: 2,
+  explanation: "बल की SI इकाई न्यूटन है।"
+},
+{
+  id: 317,
+  category: "Science",
+  difficulty: "Easy",
+  question: "विद्युत शक्ति की SI इकाई क्या है?",
+  options: ["वोल्ट", "एम्पियर", "वाट", "ओम"],
+  answer: 2,
+  explanation: "विद्युत शक्ति की SI इकाई वाट है।"
+},
+{
+  id: 318,
+  category: "Science",
+  difficulty: "Medium",
+  question: "प्रकाश की गति निर्वात में लगभग कितनी है?",
+  options: ["3 लाख किमी/सेकंड", "30 हजार किमी/सेकंड", "3 हजार किमी/सेकंड", "30 लाख किमी/सेकंड"],
+  answer: 0,
+  explanation: "निर्वात में प्रकाश की गति लगभग 3 लाख किलोमीटर प्रति सेकंड है।"
+},
+{
+  id: 319,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "HTML का पूरा नाम क्या है?",
+  options: [
+    "HyperText Markup Language",
+    "HighText Machine Language",
+    "Hyperlink Text Management Language",
+    "Home Tool Markup Language"
+  ],
+  answer: 0,
+  explanation: "HTML का पूरा नाम HyperText Markup Language है।"
+},
+{
+  id: 320,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CSS का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
+  options: [
+    "वेबसाइट की स्टाइल और डिजाइन",
+    "डेटाबेस हटाने",
+    "वीडियो रिकॉर्ड करने",
+    "ऑडियो चलाने"
+  ],
+  answer: 0,
+  explanation: "CSS का उपयोग वेबसाइट के रंग, लेआउट और डिजाइन को नियंत्रित करने के लिए किया जाता है।"
+},
+{
+  id: 321,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "JavaScript का उपयोग वेब पेज में मुख्य रूप से किसके लिए किया जाता है?",
+  options: [
+    "इंटरैक्टिविटी जोड़ने",
+    "केवल फोटो प्रिंट करने",
+    "कागज स्कैन करने",
+    "बैटरी चार्ज करने"
+  ],
+  answer: 0,
+  explanation: "JavaScript वेब पेज में इंटरैक्टिव और गतिशील व्यवहार जोड़ने के लिए उपयोग होती है।"
+},
+{
+  id: 322,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बैडमिंटन में किस वस्तु को हिट किया जाता है?",
+  options: ["बॉल", "शटल कॉक", "डिस्क", "पक"],
+  answer: 1,
+  explanation: "बैडमिंटन में शटल कॉक को रैकेट से मारा जाता है।"
+},
+{
+  id: 323,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "टेनिस में शून्य स्कोर को क्या कहा जाता है?",
+  options: ["Nil", "Love", "Zero Point", "Blank"],
+  answer: 1,
+  explanation: "टेनिस में शून्य स्कोर को Love कहा जाता है।"
+},
+{
+  id: 324,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "जापान की राजधानी क्या है?",
+  options: ["ओसाका", "क्योटो", "टोक्यो", "हिरोशिमा"],
+  answer: 2,
+  explanation: "टोक्यो जापान की राजधानी है।"
+},
+{
+  id: 325,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "ऑस्ट्रेलिया की राजधानी क्या है?",
+  options: ["सिडनी", "मेलबर्न", "कैनबरा", "पर्थ"],
+  answer: 2,
+  explanation: "कैनबरा ऑस्ट्रेलिया की राजधानी है।"
 },

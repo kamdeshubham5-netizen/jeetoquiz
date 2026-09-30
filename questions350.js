@@ -1,487 +1,454 @@
-const questionBank350 = [
-  {
-    id: 1,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत की राजधानी क्या है?",
-    options: ["मुंबई", "नई दिल्ली", "कोलकाता", "चेन्नई"],
-    answer: 1,
-    explanation: "नई दिल्ली भारत की राजधानी है।"
-  },
-  {
-    id: 2,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत का राष्ट्रीय पशु कौन सा है?",
-    options: ["शेर", "हाथी", "बाघ", "मोर"],
-    answer: 2,
-    explanation: "बाघ भारत का राष्ट्रीय पशु है।"
-  },
-  {
-    id: 3,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत का राष्ट्रीय पक्षी कौन सा है?",
-    options: ["मोर", "तोता", "कबूतर", "हंस"],
-    answer: 0,
-    explanation: "मोर भारत का राष्ट्रीय पक्षी है।"
-  },
-  {
-    id: 4,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत का राष्ट्रीय फूल कौन सा है?",
-    options: ["गुलाब", "कमल", "सूरजमुखी", "चमेली"],
-    answer: 1,
-    explanation: "कमल भारत का राष्ट्रीय फूल है।"
-  },
-  {
-    id: 5,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत का राष्ट्रीय फल कौन सा है?",
-    options: ["सेब", "केला", "आम", "संतरा"],
-    answer: 2,
-    explanation: "आम को भारत का राष्ट्रीय फल माना जाता है।"
-  },
-  {
-    id: 6,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत का राष्ट्रीय वृक्ष कौन सा है?",
-    options: ["नीम", "बरगद", "पीपल", "आम"],
-    answer: 1,
-    explanation: "बरगद भारत का राष्ट्रीय वृक्ष है।"
-  },
-  {
-    id: 7,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत का राष्ट्रीय जलीय जीव कौन सा है?",
-    options: ["गंगा डॉल्फिन", "मगरमच्छ", "कछुआ", "व्हेल"],
-    answer: 0,
-    explanation: "गंगा नदी की डॉल्फिन भारत का राष्ट्रीय जलीय जीव है।"
-  },
-  {
-    id: 8,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत का राष्ट्रीय खेल आधिकारिक रूप से कौन सा है?",
-    options: ["हॉकी", "क्रिकेट", "कबड्डी", "कोई आधिकारिक राष्ट्रीय खेल नहीं"],
-    answer: 3,
-    explanation: "भारत सरकार ने किसी खेल को आधिकारिक राष्ट्रीय खेल घोषित नहीं किया है।"
-  },
-  {
-    id: 9,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत में कितने राज्य हैं?",
-    options: ["26", "28", "29", "30"],
-    answer: 1,
-    explanation: "भारत में वर्तमान में 28 राज्य हैं।"
-  },
-  {
-    id: 10,
-    category: "India GK",
-    difficulty: "Easy",
-    question: "भारत में कितने केंद्र शासित प्रदेश हैं?",
-    options: ["6", "7", "8", "9"],
-    answer: 2,
-    explanation: "भारत में 8 केंद्र शासित प्रदेश हैं।"
-  },
+{
+  id: 51,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय फूल कौन सा है?",
+  options: ["गुलाब", "कमल", "गेंदा", "चमेली"],
+  answer: 1,
+  explanation: "कमल भारत का राष्ट्रीय फूल है।"
+},
+{
+  id: 52,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय पक्षी कौन सा है?",
+  options: ["तोता", "मोर", "कबूतर", "हंस"],
+  answer: 1,
+  explanation: "मोर भारत का राष्ट्रीय पक्षी है।"
+},
+{
+  id: 53,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय फल कौन सा है?",
+  options: ["सेब", "आम", "केला", "संतरा"],
+  answer: 1,
+  explanation: "आम भारत का राष्ट्रीय फल है।"
+},
+{
+  id: 54,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत में कितने राज्य हैं?",
+  options: ["26", "28", "29", "30"],
+  answer: 1,
+  explanation: "भारत में वर्तमान में 28 राज्य हैं।"
+},
+{
+  id: 55,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का सबसे बड़ा राज्य क्षेत्रफल के आधार पर कौन सा है?",
+  options: ["मध्य प्रदेश", "महाराष्ट्र", "राजस्थान", "उत्तर प्रदेश"],
+  answer: 2,
+  explanation: "क्षेत्रफल के आधार पर राजस्थान भारत का सबसे बड़ा राज्य है।"
+},
+{
+  id: 56,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का सबसे छोटा राज्य क्षेत्रफल के आधार पर कौन सा है?",
+  options: ["सिक्किम", "गोवा", "त्रिपुरा", "मिजोरम"],
+  answer: 1,
+  explanation: "क्षेत्रफल के आधार पर गोवा भारत का सबसे छोटा राज्य है।"
+},
+{
+  id: 57,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत की सबसे लंबी नदी कौन सी है?",
+  options: ["यमुना", "गंगा", "नर्मदा", "गोदावरी"],
+  answer: 1,
+  explanation: "भारत में बहने वाली सबसे लंबी नदी गंगा है।"
+},
+{
+  id: 58,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का सबसे ऊँचा पर्वत शिखर कौन सा है?",
+  options: ["नंदा देवी", "कंचनजंगा", "कामेत", "अनामुड़ी"],
+  answer: 1,
+  explanation: "कंचनजंगा भारत की सबसे ऊँची प्रमुख पर्वत चोटी है।"
+},
+{
+  id: 59,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत की मुद्रा क्या है?",
+  options: ["डॉलर", "रुपया", "टका", "दीनार"],
+  answer: 1,
+  explanation: "भारत की आधिकारिक मुद्रा भारतीय रुपया है।"
+},
+{
+  id: 60,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारतीय रुपये का प्रतीक क्या है?",
+  options: ["$", "€", "₹", "£"],
+  answer: 2,
+  explanation: "भारतीय रुपये का प्रतीक ₹ है।"
+},
 
-  {
-    id: 11,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "भारत की सबसे लंबी नदी कौन सी है?",
-    options: ["यमुना", "गंगा", "गोदावरी", "नर्मदा"],
-    answer: 1,
-    explanation: "गंगा भारत की सबसे लंबी नदी मानी जाती है।"
-  },
-  {
-    id: 12,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "भारत का सबसे बड़ा राज्य क्षेत्रफल के आधार पर कौन सा है?",
-    options: ["मध्य प्रदेश", "महाराष्ट्र", "राजस्थान", "उत्तर प्रदेश"],
-    answer: 2,
-    explanation: "क्षेत्रफल के आधार पर राजस्थान भारत का सबसे बड़ा राज्य है।"
-  },
-  {
-    id: 13,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "भारत का सबसे छोटा राज्य क्षेत्रफल के आधार पर कौन सा है?",
-    options: ["गोवा", "सिक्किम", "त्रिपुरा", "मिजोरम"],
-    answer: 0,
-    explanation: "क्षेत्रफल के आधार पर गोवा सबसे छोटा राज्य है।"
-  },
-  {
-    id: 14,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "भारत का सबसे दक्षिणी राज्य कौन सा है?",
-    options: ["केरल", "तमिलनाडु", "कर्नाटक", "आंध्र प्रदेश"],
-    answer: 1,
-    explanation: "तमिलनाडु भारत का सबसे दक्षिणी राज्य है।"
-  },
-  {
-    id: 15,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "भारत की सबसे ऊँची पर्वत चोटी कौन सी है?",
-    options: ["नंदा देवी", "कंचनजंघा", "कामेत", "अनामुड़ी"],
-    answer: 1,
-    explanation: "कंचनजंघा भारत की सबसे ऊँची पर्वत चोटी है।"
-  },
-  {
-    id: 16,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "थार मरुस्थल मुख्य रूप से किस राज्य में स्थित है?",
-    options: ["गुजरात", "राजस्थान", "हरियाणा", "पंजाब"],
-    answer: 1,
-    explanation: "थार मरुस्थल का अधिकांश भाग राजस्थान में है।"
-  },
-  {
-    id: 17,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "भारत की सबसे बड़ी मीठे पानी की झील कौन सी है?",
-    options: ["डल झील", "वूलर झील", "चिल्का झील", "लोकटक झील"],
-    answer: 1,
-    explanation: "वूलर झील भारत की प्रमुख बड़ी मीठे पानी की झील है।"
-  },
-  {
-    id: 18,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "चिल्का झील किस राज्य में है?",
-    options: ["ओडिशा", "पश्चिम बंगाल", "केरल", "आंध्र प्रदेश"],
-    answer: 0,
-    explanation: "चिल्का झील ओडिशा में स्थित है।"
-  },
-  {
-    id: 19,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "नर्मदा नदी किस दिशा में बहने के लिए प्रसिद्ध है?",
-    options: ["पूर्व", "पश्चिम", "उत्तर", "दक्षिण"],
-    answer: 1,
-    explanation: "नर्मदा नदी पश्चिम दिशा में बहती हुई अरब सागर में गिरती है।"
-  },
-  {
-    id: 20,
-    category: "Geography",
-    difficulty: "Easy",
-    question: "भारत का सबसे बड़ा पठार कौन सा है?",
-    options: ["दक्कन का पठार", "मालवा का पठार", "छोटानागपुर पठार", "मेघालय पठार"],
-    answer: 0,
-    explanation: "दक्कन का पठार भारत के बड़े पठारी क्षेत्रों में प्रमुख है।"
-  },
+{
+  id: 61,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "विश्व का सबसे बड़ा महासागर कौन सा है?",
+  options: ["अटलांटिक महासागर", "प्रशांत महासागर", "हिंद महासागर", "आर्कटिक महासागर"],
+  answer: 1,
+  explanation: "प्रशांत महासागर पृथ्वी का सबसे बड़ा महासागर है।"
+},
+{
+  id: 62,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "विश्व का सबसे बड़ा महाद्वीप कौन सा है?",
+  options: ["अफ्रीका", "एशिया", "यूरोप", "उत्तरी अमेरिका"],
+  answer: 1,
+  explanation: "क्षेत्रफल और जनसंख्या दोनों के आधार पर एशिया सबसे बड़ा महाद्वीप है।"
+},
+{
+  id: 63,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "विश्व का सबसे छोटा महाद्वीप कौन सा है?",
+  options: ["यूरोप", "ऑस्ट्रेलिया", "अंटार्कटिका", "दक्षिण अमेरिका"],
+  answer: 1,
+  explanation: "ऑस्ट्रेलिया क्षेत्रफल के आधार पर सबसे छोटा महाद्वीप है।"
+},
+{
+  id: 64,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "जापान की राजधानी क्या है?",
+  options: ["ओसाका", "टोक्यो", "क्योटो", "नागोया"],
+  answer: 1,
+  explanation: "टोक्यो जापान की राजधानी है।"
+},
+{
+  id: 65,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "फ्रांस की राजधानी क्या है?",
+  options: ["रोम", "पेरिस", "बर्लिन", "मैड्रिड"],
+  answer: 1,
+  explanation: "पेरिस फ्रांस की राजधानी है।"
+},
+{
+  id: 66,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "ऑस्ट्रेलिया की राजधानी क्या है?",
+  options: ["सिडनी", "मेलबर्न", "कैनबरा", "पर्थ"],
+  answer: 2,
+  explanation: "कैनबरा ऑस्ट्रेलिया की राजधानी है।"
+},
+{
+  id: 67,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "संयुक्त राज्य अमेरिका की राजधानी क्या है?",
+  options: ["न्यूयॉर्क", "लॉस एंजिलिस", "वॉशिंगटन डी.सी.", "शिकागो"],
+  answer: 2,
+  explanation: "वॉशिंगटन डी.सी. अमेरिका की राजधानी है।"
+},
+{
+  id: 68,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "मिस्र के प्रसिद्ध पिरामिड किस शहर के पास हैं?",
+  options: ["काहिरा", "अलेक्जेंड्रिया", "लक्सर", "असवान"],
+  answer: 0,
+  explanation: "गीज़ा के प्रसिद्ध पिरामिड काहिरा के पास स्थित हैं।"
+},
+{
+  id: 69,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "विश्व का सबसे बड़ा गर्म रेगिस्तान कौन सा है?",
+  options: ["गोबी", "सहारा", "थार", "कालाहारी"],
+  answer: 1,
+  explanation: "सहारा विश्व का सबसे बड़ा गर्म रेगिस्तान है।"
+},
+{
+  id: 70,
+  category: "World GK",
+  difficulty: "Easy",
+  question: "नील नदी किस महाद्वीप में बहती है?",
+  options: ["एशिया", "अफ्रीका", "यूरोप", "दक्षिण अमेरिका"],
+  answer: 1,
+  explanation: "नील नदी अफ्रीका महाद्वीप में बहती है।"
+},
 
-  {
-    id: 21,
-    category: "Science",
-    difficulty: "Easy",
-    question: "पानी का रासायनिक सूत्र क्या है?",
-    options: ["CO₂", "H₂O", "O₂", "NaCl"],
-    answer: 1,
-    explanation: "पानी का रासायनिक सूत्र H₂O है।"
-  },
-  {
-    id: 22,
-    category: "Science",
-    difficulty: "Easy",
-    question: "सूर्य के सबसे निकट कौन सा ग्रह है?",
-    options: ["शुक्र", "पृथ्वी", "बुध", "मंगल"],
-    answer: 2,
-    explanation: "बुध सूर्य के सबसे निकट ग्रह है।"
-  },
-  {
-    id: 23,
-    category: "Science",
-    difficulty: "Easy",
-    question: "लाल ग्रह किसे कहा जाता है?",
-    options: ["बृहस्पति", "मंगल", "शनि", "शुक्र"],
-    answer: 1,
-    explanation: "मंगल को उसकी लाल सतह के कारण लाल ग्रह कहा जाता है।"
-  },
-  {
-    id: 24,
-    category: "Science",
-    difficulty: "Easy",
-    question: "पृथ्वी का प्राकृतिक उपग्रह कौन है?",
-    options: ["सूर्य", "चंद्रमा", "मंगल", "शुक्र"],
-    answer: 1,
-    explanation: "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
-  },
-  {
-    id: 25,
-    category: "Science",
-    difficulty: "Easy",
-    question: "मनुष्य के शरीर में रक्त पंप करने वाला अंग कौन सा है?",
-    options: ["फेफड़ा", "हृदय", "यकृत", "गुर्दा"],
-    answer: 1,
-    explanation: "हृदय रक्त को पूरे शरीर में पंप करता है।"
-  },
-  {
-    id: 26,
-    category: "Science",
-    difficulty: "Easy",
-    question: "पौधे प्रकाश संश्लेषण के दौरान किस गैस का उपयोग करते हैं?",
-    options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
-    answer: 2,
-    explanation: "पौधे प्रकाश संश्लेषण में कार्बन डाइऑक्साइड का उपयोग करते हैं।"
-  },
-  {
-    id: 27,
-    category: "Science",
-    difficulty: "Easy",
-    question: "वयस्क मानव शरीर में सामान्यतः कितनी हड्डियाँ होती हैं?",
-    options: ["196", "206", "216", "226"],
-    answer: 1,
-    explanation: "एक सामान्य वयस्क मानव शरीर में 206 हड्डियाँ होती हैं।"
-  },
-  {
-    id: 28,
-    category: "Science",
-    difficulty: "Easy",
-    question: "ऑक्सीजन का रासायनिक प्रतीक क्या है?",
-    options: ["Ox", "O", "Og", "C"],
-    answer: 1,
-    explanation: "ऑक्सीजन का रासायनिक प्रतीक O है।"
-  },
-  {
-    id: 29,
-    category: "Science",
-    difficulty: "Easy",
-    question: "सूर्य एक क्या है?",
-    options: ["ग्रह", "उपग्रह", "तारा", "धूमकेतु"],
-    answer: 2,
-    explanation: "सूर्य एक तारा है।"
-  },
-  {
-    id: 30,
-    category: "Science",
-    difficulty: "Easy",
-    question: "पृथ्वी सूर्य की एक परिक्रमा लगभग कितने समय में पूरी करती है?",
-    options: ["24 घंटे", "30 दिन", "365 दिन", "12 घंटे"],
-    answer: 2,
-    explanation: "पृथ्वी सूर्य की परिक्रमा लगभग 365.25 दिनों में पूरी करती है।"
-  },
+{
+  id: 71,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पानी का रासायनिक सूत्र क्या है?",
+  options: ["CO₂", "H₂O", "O₂", "NaCl"],
+  answer: 1,
+  explanation: "पानी का रासायनिक सूत्र H₂O है।"
+},
+{
+  id: 72,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ऑक्सीजन का रासायनिक प्रतीक क्या है?",
+  options: ["Ox", "O", "Og", "C"],
+  answer: 1,
+  explanation: "ऑक्सीजन का रासायनिक प्रतीक O है।"
+},
+{
+  id: 73,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मनुष्य के शरीर में रक्त पंप करने वाला अंग कौन सा है?",
+  options: ["फेफड़े", "हृदय", "यकृत", "गुर्दा"],
+  answer: 1,
+  explanation: "हृदय पूरे शरीर में रक्त पंप करता है।"
+},
+{
+  id: 74,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मनुष्य सामान्यतः कितने दाँतों के साथ वयस्क होता है?",
+  options: ["28", "30", "32", "34"],
+  answer: 2,
+  explanation: "एक सामान्य वयस्क मनुष्य के 32 स्थायी दाँत होते हैं।"
+},
+{
+  id: 75,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पौधे प्रकाश संश्लेषण में किस गैस का उपयोग करते हैं?",
+  options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+  answer: 2,
+  explanation: "पौधे प्रकाश संश्लेषण के लिए कार्बन डाइऑक्साइड का उपयोग करते हैं।"
+},
+{
+  id: 76,
+  category: "Science",
+  difficulty: "Easy",
+  question: "सूर्य के सबसे निकट कौन सा ग्रह है?",
+  options: ["शुक्र", "पृथ्वी", "बुध", "मंगल"],
+  answer: 2,
+  explanation: "बुध सूर्य के सबसे निकट स्थित ग्रह है।"
+},
+{
+  id: 77,
+  category: "Science",
+  difficulty: "Easy",
+  question: "लाल ग्रह किसे कहा जाता है?",
+  options: ["बृहस्पति", "मंगल", "शनि", "शुक्र"],
+  answer: 1,
+  explanation: "मंगल को उसकी लाल सतह के कारण लाल ग्रह कहा जाता है।"
+},
+{
+  id: 78,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पृथ्वी का प्राकृतिक उपग्रह कौन सा है?",
+  options: ["सूर्य", "चंद्रमा", "मंगल", "शुक्र"],
+  answer: 1,
+  explanation: "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
+},
+{
+  id: 79,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ध्वनि किस माध्यम में सबसे तेज चलती है?",
+  options: ["वायु", "जल", "ठोस", "निर्वात"],
+  answer: 2,
+  explanation: "ध्वनि सामान्यतः ठोस पदार्थों में सबसे तेज गति से चलती है।"
+},
+{
+  id: 80,
+  category: "Science",
+  difficulty: "Easy",
+  question: "तापमान मापने के लिए किस यंत्र का उपयोग होता है?",
+  options: ["बैरोमीटर", "थर्मामीटर", "अमीटर", "कम्पास"],
+  answer: 1,
+  explanation: "थर्मामीटर तापमान मापने के लिए प्रयोग किया जाता है।"
+},
 
-  {
-    id: 31,
-    category: "History",
-    difficulty: "Easy",
-    question: "भारत को स्वतंत्रता कब मिली?",
-    options: ["15 अगस्त 1947", "26 जनवरी 1950", "2 अक्टूबर 1947", "15 अगस्त 1950"],
-    answer: 0,
-    explanation: "भारत 15 अगस्त 1947 को स्वतंत्र हुआ।"
-  },
-  {
-    id: 32,
-    category: "History",
-    difficulty: "Easy",
-    question: "भारत का संविधान कब लागू हुआ?",
-    options: ["15 अगस्त 1947", "26 नवंबर 1949", "26 जनवरी 1950", "2 अक्टूबर 1950"],
-    answer: 2,
-    explanation: "भारतीय संविधान 26 जनवरी 1950 को लागू हुआ।"
-  },
-  {
-    id: 33,
-    category: "History",
-    difficulty: "Easy",
-    question: "महात्मा गांधी का जन्मदिन कब मनाया जाता है?",
-    options: ["14 नवंबर", "2 अक्टूबर", "15 अगस्त", "26 जनवरी"],
-    answer: 1,
-    explanation: "महात्मा गांधी का जन्म 2 अक्टूबर 1869 को हुआ था।"
-  },
-  {
-    id: 34,
-    category: "History",
-    difficulty: "Easy",
-    question: "भारत के प्रथम प्रधानमंत्री कौन थे?",
-    options: ["सरदार पटेल", "जवाहरलाल नेहरू", "राजेंद्र प्रसाद", "लाल बहादुर शास्त्री"],
-    answer: 1,
-    explanation: "जवाहरलाल नेहरू भारत के प्रथम प्रधानमंत्री थे।"
-  },
-  {
-    id: 35,
-    category: "History",
-    difficulty: "Easy",
-    question: "भारत के प्रथम राष्ट्रपति कौन थे?",
-    options: ["डॉ. राजेंद्र प्रसाद", "डॉ. राधाकृष्णन", "जवाहरलाल नेहरू", "सरदार पटेल"],
-    answer: 0,
-    explanation: "डॉ. राजेंद्र प्रसाद भारत के प्रथम राष्ट्रपति थे।"
-  },
-  {
-    id: 36,
-    category: "History",
-    difficulty: "Easy",
-    question: "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ था?",
-    options: ["1930", "1935", "1942", "1947"],
-    answer: 2,
-    explanation: "भारत छोड़ो आंदोलन 1942 में शुरू हुआ था।"
-  },
-  {
-    id: 37,
-    category: "History",
-    difficulty: "Easy",
-    question: "जलियांवाला बाग हत्याकांड किस वर्ष हुआ था?",
-    options: ["1915", "1919", "1922", "1930"],
-    answer: 1,
-    explanation: "जलियांवाला बाग हत्याकांड 13 अप्रैल 1919 को हुआ था।"
-  },
-  {
-    id: 38,
-    category: "History",
-    difficulty: "Easy",
-    question: "दांडी मार्च किस आंदोलन से संबंधित था?",
-    options: ["नमक सत्याग्रह", "भारत छोड़ो आंदोलन", "स्वदेशी आंदोलन", "असहयोग आंदोलन"],
-    answer: 0,
-    explanation: "दांडी मार्च 1930 के नमक सत्याग्रह का महत्वपूर्ण हिस्सा था।"
-  },
-  {
-    id: 39,
-    category: "History",
-    difficulty: "Easy",
-    question: "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई?",
-    options: ["1885", "1890", "1905", "1919"],
-    answer: 0,
-    explanation: "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में हुई थी।"
-  },
-  {
-    id: 40,
-    category: "History",
-    difficulty: "Easy",
-    question: "सुभाष चंद्र बोस को किस नाम से भी जाना जाता है?",
-    options: ["लोकमान्य", "नेताजी", "सरदार", "गुरुदेव"],
-    answer: 1,
-    explanation: "सुभाष चंद्र बोस को नेताजी के नाम से जाना जाता है।"
-  },
+{
+  id: 81,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "पृथ्वी का लगभग कितना भाग जल से ढका है?",
+  options: ["31%", "51%", "71%", "91%"],
+  answer: 2,
+  explanation: "पृथ्वी की सतह का लगभग 71 प्रतिशत भाग जल से ढका है।"
+},
+{
+  id: 82,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भूमध्य रेखा पृथ्वी को कितने भागों में बाँटती है?",
+  options: ["दो", "तीन", "चार", "पाँच"],
+  answer: 0,
+  explanation: "भूमध्य रेखा पृथ्वी को उत्तरी और दक्षिणी गोलार्ध में बाँटती है।"
+},
+{
+  id: 83,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "गंगा नदी का उद्गम किस हिमनद से माना जाता है?",
+  options: ["सियाचिन", "गंगोत्री", "यमुनोत्री", "पिंडारी"],
+  answer: 1,
+  explanation: "गंगा की मुख्य धारा भागीरथी का उद्गम गंगोत्री हिमनद से होता है।"
+},
+{
+  id: 84,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत के पश्चिम में कौन सा सागर है?",
+  options: ["बंगाल की खाड़ी", "अरब सागर", "लाल सागर", "कैरेबियन सागर"],
+  answer: 1,
+  explanation: "भारत के पश्चिम में अरब सागर स्थित है।"
+},
+{
+  id: 85,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत के पूर्व में कौन सी खाड़ी है?",
+  options: ["अरब सागर", "बंगाल की खाड़ी", "फारस की खाड़ी", "हडसन की खाड़ी"],
+  answer: 1,
+  explanation: "भारत के पूर्व में बंगाल की खाड़ी स्थित है।"
+},
+{
+  id: 86,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "थार मरुस्थल मुख्य रूप से किस राज्य में है?",
+  options: ["राजस्थान", "गुजरात", "हरियाणा", "पंजाब"],
+  answer: 0,
+  explanation: "थार मरुस्थल का अधिकांश भाग राजस्थान में स्थित है।"
+},
+{
+  id: 87,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "हिमालय किस प्रकार के पर्वत हैं?",
+  options: ["वलित पर्वत", "ज्वालामुखी पर्वत", "अवशिष्ट पर्वत", "ब्लॉक पर्वत"],
+  answer: 0,
+  explanation: "हिमालय युवा वलित पर्वतों की श्रेणी में आते हैं।"
+},
+{
+  id: 88,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत में मानसून मुख्य रूप से किस महासागर क्षेत्र से नमी लाता है?",
+  options: ["हिंद महासागर", "प्रशांत महासागर", "अटलांटिक महासागर", "आर्कटिक महासागर"],
+  answer: 0,
+  explanation: "भारतीय मानसून को हिंद महासागर क्षेत्र से पर्याप्त नमी मिलती है।"
+},
+{
+  id: 89,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "पृथ्वी अपने अक्ष पर एक चक्कर लगभग कितने समय में पूरा करती है?",
+  options: ["12 घंटे", "24 घंटे", "48 घंटे", "72 घंटे"],
+  answer: 1,
+  explanation: "पृथ्वी लगभग 24 घंटे में अपने अक्ष पर एक घूर्णन पूरा करती है।"
+},
+{
+  id: 90,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "पृथ्वी सूर्य की एक परिक्रमा लगभग कितने समय में पूरी करती है?",
+  options: ["180 दिन", "365 दिन", "500 दिन", "730 दिन"],
+  answer: 1,
+  explanation: "पृथ्वी सूर्य की एक परिक्रमा लगभग 365 दिन और लगभग 6 घंटे में पूरी करती है।"
+},
 
-  {
-    id: 41,
-    category: "Sports",
-    difficulty: "Easy",
-    question: "क्रिकेट में एक ओवर में कितनी गेंदें होती हैं?",
-    options: ["4", "5", "6", "8"],
-    answer: 2,
-    explanation: "मानक क्रिकेट में एक ओवर में 6 वैध गेंदें होती हैं।"
-  },
-  {
-    id: 42,
-    category: "Sports",
-    difficulty: "Easy",
-    question: "फुटबॉल टीम में मैदान पर सामान्यतः कितने खिलाड़ी होते हैं?",
-    options: ["9", "10", "11", "12"],
-    answer: 2,
-    explanation: "एक फुटबॉल टीम के 11 खिलाड़ी मैदान पर होते हैं।"
-  },
-  {
-    id: 43,
-    category: "Sports",
-    difficulty: "Easy",
-    question: "ओलंपिक खेल कितने वर्षों के अंतराल पर आयोजित होते हैं?",
-    options: ["2 वर्ष", "3 वर्ष", "4 वर्ष", "5 वर्ष"],
-    answer: 2,
-    explanation: "ग्रीष्मकालीन और शीतकालीन ओलंपिक सामान्यतः चार-चार वर्ष के अंतराल पर होते हैं।"
-  },
-  {
-    id: 44,
-    category: "Sports",
-    difficulty: "Easy",
-    question: "टेनिस में शून्य स्कोर को क्या कहा जाता है?",
-    options: ["Nil", "Love", "Zero", "Duck"],
-    answer: 1,
-    explanation: "टेनिस में शून्य स्कोर को Love कहा जाता है।"
-  },
-  {
-    id: 45,
-    category: "Sports",
-    difficulty: "Easy",
-    question: "क्रिकेट में LBW का पूरा नाम क्या है?",
-    options: [
-      "Leg Before Wicket",
-      "Long Ball Wicket",
-      "Leg By Wicket",
-      "Last Ball Wicket"
-    ],
-    answer: 0,
-    explanation: "LBW का अर्थ Leg Before Wicket है।"
-  },
-
-  {
-    id: 46,
-    category: "Technology",
-    difficulty: "Easy",
-    question: "CPU का पूरा नाम क्या है?",
-    options: [
-      "Central Processing Unit",
-      "Computer Personal Unit",
-      "Central Program Utility",
-      "Computer Processing Utility"
-    ],
-    answer: 0,
-    explanation: "CPU का पूरा नाम Central Processing Unit है।"
-  },
-  {
-    id: 47,
-    category: "Technology",
-    difficulty: "Easy",
-    question: "WWW का पूरा नाम क्या है?",
-    options: [
-      "World Wide Web",
-      "World Web Window",
-      "Wide World Web",
-      "Web World Wide"
-    ],
-    answer: 0,
-    explanation: "WWW का पूरा नाम World Wide Web है।"
-  },
-  {
-    id: 48,
-    category: "Technology",
-    difficulty: "Easy",
-    question: "HTML का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
-    options: [
-      "वेब पेज की संरचना बनाने के लिए",
-      "वीडियो रिकॉर्ड करने के लिए",
-      "फोटो प्रिंट करने के लिए",
-      "सिर्फ गेम खेलने के लिए"
-    ],
-    answer: 0,
-    explanation: "HTML वेब पेज की संरचना बनाने के लिए उपयोग होता है।"
-  },
-  {
-    id: 49,
-    category: "Technology",
-    difficulty: "Easy",
-    question: "URL का पूरा नाम क्या है?",
-    options: [
-      "Uniform Resource Locator",
-      "Universal Record Link",
-      "User Resource Location",
-      "Uniform Record Locator"
-    ],
-    answer: 0,
-    explanation: "URL का पूरा नाम Uniform Resource Locator है।"
-  },
-  {
-    id: 50,
-    category: "Technology",
-    difficulty: "Easy",
-    question: "JavaScript का उपयोग वेब पेज में मुख्य रूप से किसके लिए किया जाता है?",
-    options: [
-      "इंटरैक्टिविटी और व्यवहार जोड़ने के लिए",
-      "केवल फोटो खींचने के लिए",
-      "केवल इंटरनेट कनेक्शन देने के लिए",
-      "केवल कंप्यूटर बंद करने के लिए"
-    ],
-    answer: 0,
-    explanation: "JavaScript वेब पेज को interactive और dynamic बनाने में मदद करता है।"
-  }
-];
+{
+  id: 91,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CPU का पूरा नाम क्या है?",
+  options: ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Control Processing User"],
+  answer: 0,
+  explanation: "CPU का पूरा नाम Central Processing Unit है।"
+},
+{
+  id: 92,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "WWW का पूरा नाम क्या है?",
+  options: ["World Wide Web", "World Web Window", "Wide World Web", "Web World Wide"],
+  answer: 0,
+  explanation: "WWW का पूरा नाम World Wide Web है।"
+},
+{
+  id: 93,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "कंप्यूटर में डेटा की सबसे छोटी इकाई क्या है?",
+  options: ["Byte", "Bit", "Kilobyte", "Megabyte"],
+  answer: 1,
+  explanation: "Bit कंप्यूटर डेटा की सबसे छोटी सामान्य इकाई है।"
+},
+{
+  id: 94,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "URL का पूरा नाम क्या है?",
+  options: ["Uniform Resource Locator", "Universal Record Link", "User Resource Location", "Uniform Reference Link"],
+  answer: 0,
+  explanation: "URL का पूरा नाम Uniform Resource Locator है।"
+},
+{
+  id: 95,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "HTML का पूरा नाम क्या है?",
+  options: ["HyperText Markup Language", "HighText Machine Language", "Hyper Transfer Main Language", "Home Tool Markup Language"],
+  answer: 0,
+  explanation: "HTML का पूरा नाम HyperText Markup Language है।"
+},
+{
+  id: 96,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "इंटरनेट पर वेबसाइट खोलने के लिए किस सॉफ्टवेयर का उपयोग किया जाता है?",
+  options: ["वेब ब्राउज़र", "कैलकुलेटर", "पेंट", "फाइल मैनेजर"],
+  answer: 0,
+  explanation: "वेब ब्राउज़र का उपयोग वेबसाइट और वेब पेज खोलने के लिए किया जाता है।"
+},
+{
+  id: 97,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "Android किस प्रकार का सॉफ्टवेयर है?",
+  options: ["ऑपरेटिंग सिस्टम", "एंटीवायरस", "वेब ब्राउज़र", "सर्च इंजन"],
+  answer: 0,
+  explanation: "Android एक मोबाइल ऑपरेटिंग सिस्टम है।"
+},
+{
+  id: 98,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "ई-मेल में @ चिन्ह किसके बीच दिखाई देता है?",
+  options: ["नाम और डोमेन", "पासवर्ड और नाम", "फाइल और फोल्डर", "वेबसाइट और ब्राउज़र"],
+  answer: 0,
+  explanation: "ई-मेल पते में @ उपयोगकर्ता नाम और डोमेन को अलग करता है।"
+},
+{
+  id: 99,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "क्लाउड स्टोरेज का उपयोग किसके लिए किया जाता है?",
+  options: ["ऑनलाइन डेटा संग्रहण", "केवल फोटो प्रिंट", "केवल गेम खेलने", "केवल कॉल करने"],
+  answer: 0,
+  explanation: "क्लाउड स्टोरेज इंटरनेट के माध्यम से डेटा को संग्रहित करने की सुविधा देता है।"
+},
+{
+  id: 100,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "AI का पूरा नाम क्या है?",
+  options: ["Artificial Intelligence", "Automatic Internet", "Advanced Information", "Artificial Internet"],
+  answer: 0,
+  explanation: "AI का पूरा नाम Artificial Intelligence है।"
+},

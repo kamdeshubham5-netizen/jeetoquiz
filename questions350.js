@@ -2850,5 +2850,453 @@
   question: "ऑस्ट्रेलिया की राजधानी क्या है?",
   options: ["सिडनी", "मेलबर्न", "कैनबरा", "पर्थ"],
   answer: 2,
-  explanation: "कैनबरा ऑस्ट्रेलिया की राजधानी है।"
+  explanation: "कैनबरा ऑस्ट्रेलिया की राजधानी {
+  id: 301,
+  category: "India GK",
+  difficulty: "Medium",
+  question: "भारत का सबसे बड़ा राज्य क्षेत्रफल के आधार पर कौन सा है?",
+  options: ["मध्य प्रदेश", "राजस्थान", "महाराष्ट्र", "उत्तर प्रदेश"],
+  answer: 1,
+  explanation: "राजस्थान क्षेत्रफल के आधार पर भारत का सबसे बड़ा राज्य है।"
 },
+{
+  id: 302,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय वृक्ष कौन सा है?",
+  options: ["नीम", "पीपल", "बरगद", "आम"],
+  answer: 2,
+  explanation: "बरगद भारत का राष्ट्रीय वृक्ष है।"
+},
+{
+  id: 303,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय फल कौन सा है?",
+  options: ["सेब", "आम", "केला", "संतरा"],
+  answer: 1,
+  explanation: "आम को भारत का राष्ट्रीय फल माना जाता है।"
+},
+{
+  id: 304,
+  category: "India GK",
+  difficulty: "Medium",
+  question: "भारतीय अंतरिक्ष अनुसंधान संगठन का संक्षिप्त नाम क्या है?",
+  options: ["DRDO", "ISRO", "BARC", "CSIR"],
+  answer: 1,
+  explanation: "ISRO का पूरा नाम Indian Space Research Organisation है।"
+},
+{
+  id: 305,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय जलीय जीव कौन सा है?",
+  options: ["गंगा डॉल्फिन", "मगरमच्छ", "कछुआ", "व्हेल"],
+  answer: 0,
+  explanation: "गंगा नदी की डॉल्फिन भारत का राष्ट्रीय जलीय जीव है।"
+},
+{
+  id: 306,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "पृथ्वी पर सबसे बड़ा महासागर कौन सा है?",
+  options: ["अटलांटिक महासागर", "हिंद महासागर", "प्रशांत महासागर", "आर्कटिक महासागर"],
+  answer: 2,
+  explanation: "प्रशांत महासागर पृथ्वी का सबसे बड़ा महासागर है।"
+},
+{
+  id: 307,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "सहारा मरुस्थल किस महाद्वीप में स्थित है?",
+  options: ["एशिया", "अफ्रीका", "ऑस्ट्रेलिया", "दक्षिण अमेरिका"],
+  answer: 1,
+  explanation: "सहारा मरुस्थल अफ्रीका में स्थित है।"
+},
+{
+  id: 308,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "भारत में गंगा नदी किस सागर की ओर बहती है?",
+  options: ["अरब सागर", "बंगाल की खाड़ी", "लाल सागर", "भूमध्य सागर"],
+  answer: 1,
+  explanation: "गंगा नदी अंततः बंगाल की खाड़ी में गिरती है।"
+},
+{
+  id: 309,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "विश्व की सबसे ऊँची पर्वत चोटी कौन सी है?",
+  options: ["K2", "माउंट एवरेस्ट", "कंचनजंघा", "नंगा पर्वत"],
+  answer: 1,
+  explanation: "माउंट एवरेस्ट समुद्र तल से विश्व की सबसे ऊँची पर्वत चोटी है।"
+},
+{
+  id: 310,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "भूमध्य रेखा पृथ्वी को किन दो भागों में बाँटती है?",
+  options: ["पूर्व और पश्चिम", "उत्तर और दक्षिण", "ऊपर और नीचे", "स्थल और जल"],
+  answer: 1,
+  explanation: "भूमध्य रेखा पृथ्वी को उत्तरी और दक्षिणी गोलार्ध में बाँटती है।"
+},
+{
+  id: 311,
+  category: "Science",
+  difficulty: "Easy",
+  question: "जल का रासायनिक सूत्र क्या है?",
+  options: ["CO2", "H2O", "O2", "NaCl"],
+  answer: 1,
+  explanation: "जल का रासायनिक सूत्र H2O है।"
+},
+{
+  id: 312,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मानव शरीर में रक्त को पंप करने वाला अंग कौन सा है?",
+  options: ["फेफड़ा", "हृदय", "यकृत", "गुर्दा"],
+  answer: 1,
+  explanation: "हृदय रक्त को पूरे शरीर में पंप करता है।"
+},
+{
+  id: 313,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पौधे प्रकाश संश्लेषण के दौरान मुख्य रूप से कौन सी गैस ग्रहण करते हैं?",
+  options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+  answer: 2,
+  explanation: "प्रकाश संश्लेषण में पौधे कार्बन डाइऑक्साइड का उपयोग करते हैं।"
+},
+{
+  id: 314,
+  category: "Science",
+  difficulty: "Medium",
+  question: "मानव शरीर का सबसे बड़ा अंग कौन सा है?",
+  options: ["हृदय", "त्वचा", "यकृत", "मस्तिष्क"],
+  answer: 1,
+  explanation: "त्वचा मानव शरीर का सबसे बड़ा अंग है।"
+},
+{
+  id: 315,
+  category: "Science",
+  difficulty: "Easy",
+  question: "सूर्य के सबसे निकट कौन सा ग्रह है?",
+  options: ["शुक्र", "पृथ्वी", "बुध", "मंगल"],
+  answer: 2,
+  explanation: "बुध सूर्य के सबसे निकट स्थित ग्रह है।"
+},
+{
+  id: 316,
+  category: "Science",
+  difficulty: "Medium",
+  question: "ध्वनि निर्वात में क्यों नहीं फैलती?",
+  options: ["वहाँ प्रकाश नहीं होता", "माध्यम नहीं होता", "वहाँ गुरुत्वाकर्षण नहीं होता", "वहाँ तापमान अधिक होता है"],
+  answer: 1,
+  explanation: "ध्वनि के प्रसार के लिए किसी भौतिक माध्यम की आवश्यकता होती है।"
+},
+{
+  id: 317,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पानी का सामान्य क्वथनांक समुद्र तल पर कितना होता है?",
+  options: ["0°C", "50°C", "100°C", "150°C"],
+  answer: 2,
+  explanation: "सामान्य वायुमंडलीय दबाव पर पानी 100°C पर उबलता है।"
+},
+{
+  id: 318,
+  category: "Science",
+  difficulty: "Medium",
+  question: "विटामिन C का प्रमुख स्रोत इनमें से कौन सा है?",
+  options: ["नींबू", "चावल", "मक्खन", "नमक"],
+  answer: 0,
+  explanation: "नींबू जैसे खट्टे फलों में विटामिन C पाया जाता है।"
+},
+{
+  id: 319,
+  category: "Science",
+  difficulty: "Medium",
+  question: "विद्युत धारा की SI इकाई क्या है?",
+  options: ["वोल्ट", "एम्पियर", "वाट", "ओम"],
+  answer: 1,
+  explanation: "विद्युत धारा की SI इकाई एम्पियर है।"
+},
+{
+  id: 320,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पृथ्वी का प्राकृतिक उपग्रह कौन सा है?",
+  options: ["सूर्य", "चंद्रमा", "मंगल", "शुक्र"],
+  answer: 1,
+  explanation: "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
+},
+{
+  id: 321,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत का स्वतंत्रता दिवस कब मनाया जाता है?",
+  options: ["26 जनवरी", "15 अगस्त", "2 अक्टूबर", "14 नवंबर"],
+  answer: 1,
+  explanation: "भारत का स्वतंत्रता दिवस 15 अगस्त को मनाया जाता है।"
+},
+{
+  id: 322,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत का गणतंत्र दिवस कब मनाया जाता है?",
+  options: ["15 अगस्त", "26 जनवरी", "2 अक्टूबर", "14 अप्रैल"],
+  answer: 1,
+  explanation: "भारत का गणतंत्र दिवस 26 जनवरी को मनाया जाता है।"
+},
+{
+  id: 323,
+  category: "History",
+  difficulty: "Easy",
+  question: "महात्मा गांधी का जन्मदिन कब मनाया जाता है?",
+  options: ["2 अक्टूबर", "15 अगस्त", "26 जनवरी", "14 नवंबर"],
+  answer: 0,
+  explanation: "महात्मा गांधी का जन्मदिन 2 अक्टूबर को मनाया जाता है।"
+},
+{
+  id: 324,
+  category: "History",
+  difficulty: "Medium",
+  question: "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ था?",
+  options: ["1930", "1935", "1942", "1947"],
+  answer: 2,
+  explanation: "भारत छोड़ो आंदोलन 1942 में शुरू हुआ था।"
+},
+{
+  id: 325,
+  category: "History",
+  difficulty: "Medium",
+  question: "जलियांवाला बाग हत्याकांड किस वर्ष हुआ था?",
+  options: ["1915", "1919", "1922", "1930"],
+  answer: 1,
+  explanation: "जलियांवाला बाग हत्याकांड 13 अप्रैल 1919 को हुआ था।"
+},
+{
+  id: 326,
+  category: "History",
+  difficulty: "Medium",
+  question: "दांडी मार्च किस आंदोलन से संबंधित था?",
+  options: ["असहयोग आंदोलन", "नमक सत्याग्रह", "भारत छोड़ो आंदोलन", "स्वदेशी आंदोलन"],
+  answer: 1,
+  explanation: "दांडी मार्च 1930 के नमक सत्याग्रह से संबंधित था।"
+},
+{
+  id: 327,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत के पहले प्रधानमंत्री कौन थे?",
+  options: ["सरदार पटेल", "जवाहरलाल नेहरू", "राजेंद्र प्रसाद", "लाल बहादुर शास्त्री"],
+  answer: 1,
+  explanation: "जवाहरलाल नेहरू स्वतंत्र भारत के पहले प्रधानमंत्री थे।"
+},
+{
+  id: 328,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत के पहले राष्ट्रपति कौन थे?",
+  options: ["डॉ. राजेंद्र प्रसाद", "डॉ. सर्वपल्ली राधाकृष्णन", "जवाहरलाल नेहरू", "सी. राजगोपालाचारी"],
+  answer: 0,
+  explanation: "डॉ. राजेंद्र प्रसाद भारत के पहले राष्ट्रपति थे।"
+},
+{
+  id: 329,
+  category: "History",
+  difficulty: "Medium",
+  question: "सांची स्तूप किस राज्य में स्थित है?",
+  options: ["उत्तर प्रदेश", "मध्य प्रदेश", "बिहार", "राजस्थान"],
+  answer: 1,
+  explanation: "सांची स्तूप मध्य प्रदेश में स्थित है।"
+},
+{
+  id: 330,
+  category: "History",
+  difficulty: "Easy",
+  question: "ताजमहल किस शहर में स्थित है?",
+  options: ["दिल्ली", "जयपुर", "आगरा", "लखनऊ"],
+  answer: 2,
+  explanation: "ताजमहल उत्तर प्रदेश के आगरा में स्थित है।"
+},
+{
+  id: 331,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "क्रिकेट में एक ओवर में कितनी वैध गेंदें होती हैं?",
+  options: ["4", "5", "6", "8"],
+  answer: 2,
+  explanation: "सामान्य क्रिकेट में एक ओवर में 6 वैध गेंदें होती हैं।"
+},
+{
+  id: 332,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "फुटबॉल की एक टीम में मैदान पर कितने खिलाड़ी होते हैं?",
+  options: ["9", "10", "11", "12"],
+  answer: 2,
+  explanation: "फुटबॉल की एक टीम के 11 खिलाड़ी मैदान पर होते हैं।"
+},
+{
+  id: 333,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "ओलंपिक खेल कितने छल्लों वाले प्रतीक के लिए प्रसिद्ध हैं?",
+  options: ["3", "4", "5", "6"],
+  answer: 2,
+  explanation: "ओलंपिक प्रतीक में पाँच आपस में जुड़े हुए छल्ले होते हैं।"
+},
+{
+  id: 334,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "विंबलडन किस खेल से संबंधित है?",
+  options: ["फुटबॉल", "टेनिस", "क्रिकेट", "हॉकी"],
+  answer: 1,
+  explanation: "विंबलडन एक प्रमुख टेनिस प्रतियोगिता है।"
+},
+{
+  id: 335,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "हॉकी में गेंद को मारने के लिए किस उपकरण का उपयोग होता है?",
+  options: ["बैट", "रैकेट", "स्टिक", "ग्लव"],
+  answer: 2,
+  explanation: "हॉकी में गेंद को खेलने के लिए हॉकी स्टिक का उपयोग किया जाता है।"
+},
+{
+  id: 336,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "शतरंज की बिसात में कुल कितने खाने होते हैं?",
+  options: ["32", "48", "64", "72"],
+  answer: 2,
+  explanation: "शतरंज की बिसात में 8×8 यानी 64 खाने होते हैं।"
+},
+{
+  id: 337,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बैडमिंटन में गेंद जैसी वस्तु को क्या कहा जाता है?",
+  options: ["शटल कॉक", "पक", "बॉल", "डिस्क"],
+  answer: 0,
+  explanation: "बैडमिंटन में शटल कॉक का उपयोग किया जाता है।"
+},
+{
+  id: 338,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "टेनिस में शून्य स्कोर को क्या कहा जाता है?",
+  options: ["लव", "जीरो", "निल", "ड्रॉ"],
+  answer: 0,
+  explanation: "टेनिस में शून्य स्कोर को Love कहा जाता है।"
+},
+{
+  id: 339,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बास्केटबॉल में सामान्यतः एक टीम के कितने खिलाड़ी कोर्ट पर होते हैं?",
+  options: ["4", "5", "6", "7"],
+  answer: 1,
+  explanation: "बास्केटबॉल में एक टीम के 5 खिलाड़ी कोर्ट पर होते हैं।"
+},
+{
+  id: 340,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "क्रिकेट में LBW का पूरा नाम क्या है?",
+  options: ["Leg Before Wicket", "Long Ball Wicket", "Leg Bat Wicket", "Left Before Wicket"],
+  answer: 0,
+  explanation: "LBW का पूरा नाम Leg Before Wicket है।"
+},
+{
+  id: 341,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CPU का पूरा नाम क्या है?",
+  options: ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Control Processing User"],
+  answer: 0,
+  explanation: "CPU का पूरा नाम Central Processing Unit है।"
+},
+{
+  id: 342,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "HTML का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
+  options: ["वेब पेज की संरचना", "वीडियो एडिटिंग", "फोटो प्रिंटिंग", "ऑडियो रिकॉर्डिंग"],
+  answer: 0,
+  explanation: "HTML का उपयोग वेब पेज की संरचना बनाने के लिए किया जाता है।"
+},
+{
+  id: 343,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CSS का मुख्य उपयोग क्या है?",
+  options: ["वेब पेज को स्टाइल करना", "डेटाबेस बनाना", "वीडियो चलाना", "फाइल डाउनलोड करना"],
+  answer: 0,
+  explanation: "CSS का उपयोग वेब पेज की शैली और डिजाइन नियंत्रित करने के लिए किया जाता है।"
+},
+{
+  id: 344,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "JavaScript का उपयोग वेब पेज में मुख्य रूप से किसके लिए किया जाता है?",
+  options: ["इंटरैक्टिविटी", "केवल प्रिंटिंग", "केवल स्टोरेज", "केवल स्कैनिंग"],
+  answer: 0,
+  explanation: "JavaScript वेब पेज में इंटरैक्टिव और गतिशील व्यवहार जोड़ सकता है।"
+},
+{
+  id: 345,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "URL का पूरा नाम क्या है?",
+  options: ["Uniform Resource Locator", "Universal Record Link", "User Resource Line", "Uniform Router Link"],
+  answer: 0,
+  explanation: "URL का पूरा नाम Uniform Resource Locator है।"
+},
+{
+  id: 346,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "कंप्यूटर में RAM किस प्रकार की मेमोरी है?",
+  options: ["अस्थायी", "स्थायी", "केवल बाहरी", "केवल ऑप्टिकल"],
+  answer: 0,
+  explanation: "RAM सामान्यतः अस्थायी यानी volatile memory होती है।"
+},
+{
+  id: 347,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "HTTPS में S किस शब्द को दर्शाता है?",
+  options: ["System", "Secure", "Server", "Search"],
+  answer: 1,
+  explanation: "HTTPS में S का अर्थ Secure है।"
+},
+{
+  id: 348,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "कंप्यूटर में SSD का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
+  options: ["डेटा स्टोरेज", "स्क्रीन ब्राइटनेस", "आवाज बढ़ाने", "माउस कंट्रोल"],
+  answer: 0,
+  explanation: "SSD का उपयोग डेटा को स्टोर करने के लिए किया जाता है।"
+},
+{
+  id: 349,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "AI का पूरा नाम क्या है?",
+  options: ["Artificial Intelligence", "Automatic Internet", "Advanced Information", "Artificial Internet"],
+  answer: 0,
+  explanation: "AI का पूरा नाम Artificial Intelligence है।"
+},
+{
+  id: 350,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "ईमेल भेजने के लिए सामान्यतः कौन सा प्रोटोकॉल उपयोग किया जाता है?",
+  options: ["SMTP", "HTTP", "FTP", "HTML"],
+  answer: 0,
+  explanation: "SMTP का उपयोग ईमेल भेजने के लिए किया जाता है।"
+}

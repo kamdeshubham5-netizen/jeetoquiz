@@ -942,3 +942,492 @@
   answer: 0,
   explanation: "Wi-Fi का उपयोग वायरलेस नेटवर्क और इंटरनेट कनेक्शन के लिए किया जाता है।"
 },
+{
+  id: 151,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पानी का रासायनिक सूत्र क्या है?",
+  options: ["CO2", "H2O", "O2", "NaCl"],
+  answer: 1,
+  explanation: "पानी का रासायनिक सूत्र H2O है।"
+},
+{
+  id: 152,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मनुष्य के शरीर में रक्त को पंप करने वाला अंग कौन सा है?",
+  options: ["फेफड़ा", "हृदय", "यकृत", "गुर्दा"],
+  answer: 1,
+  explanation: "हृदय शरीर में रक्त को पंप करता है।"
+},
+{
+  id: 153,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पौधे प्रकाश संश्लेषण में किस गैस का उपयोग करते हैं?",
+  options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+  answer: 2,
+  explanation: "पौधे प्रकाश संश्लेषण के लिए कार्बन डाइऑक्साइड का उपयोग करते हैं।"
+},
+{
+  id: 154,
+  category: "Science",
+  difficulty: "Easy",
+  question: "सूर्य के सबसे निकट कौन सा ग्रह है?",
+  options: ["पृथ्वी", "शुक्र", "बुध", "मंगल"],
+  answer: 2,
+  explanation: "बुध सूर्य के सबसे निकट ग्रह है।"
+},
+{
+  id: 155,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ध्वनि किस माध्यम में यात्रा नहीं कर सकती?",
+  options: ["हवा", "पानी", "ठोस", "निर्वात"],
+  answer: 3,
+  explanation: "ध्वनि को यात्रा करने के लिए माध्यम की आवश्यकता होती है।"
+},
+{
+  id: 156,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मानव शरीर में सामान्यतः कितनी हड्डियाँ होती हैं?",
+  options: ["196", "206", "216", "226"],
+  answer: 1,
+  explanation: "एक वयस्क मानव शरीर में सामान्यतः 206 हड्डियाँ होती हैं।"
+},
+{
+  id: 157,
+  category: "Science",
+  difficulty: "Easy",
+  question: "विटामिन C की कमी से कौन सा रोग हो सकता है?",
+  options: ["स्कर्वी", "रिकेट्स", "रातांधता", "बेरी-बेरी"],
+  answer: 0,
+  explanation: "विटामिन C की कमी से स्कर्वी हो सकता है।"
+},
+{
+  id: 158,
+  category: "Science",
+  difficulty: "Medium",
+  question: "विद्युत धारा की SI इकाई क्या है?",
+  options: ["वोल्ट", "वाट", "एम्पियर", "ओम"],
+  answer: 2,
+  explanation: "विद्युत धारा की SI इकाई एम्पियर है।"
+},
+{
+  id: 159,
+  category: "Science",
+  difficulty: "Medium",
+  question: "बल की SI इकाई क्या है?",
+  options: ["जूल", "न्यूटन", "पास्कल", "वाट"],
+  answer: 1,
+  explanation: "बल की SI इकाई न्यूटन है।"
+},
+{
+  id: 160,
+  category: "Science",
+  difficulty: "Medium",
+  question: "पृथ्वी का प्राकृतिक उपग्रह कौन है?",
+  options: ["सूर्य", "चंद्रमा", "मंगल", "शुक्र"],
+  answer: 1,
+  explanation: "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
+},
+
+{
+  id: 161,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत का क्षेत्रफल की दृष्टि से सबसे बड़ा राज्य कौन सा है?",
+  options: ["मध्य प्रदेश", "राजस्थान", "महाराष्ट्र", "उत्तर प्रदेश"],
+  answer: 1,
+  explanation: "राजस्थान क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य है।"
+},
+{
+  id: 162,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत में सबसे लंबी नदी कौन सी है?",
+  options: ["यमुना", "गंगा", "गोदावरी", "नर्मदा"],
+  answer: 1,
+  explanation: "गंगा भारत की सबसे लंबी नदी मानी जाती है।"
+},
+{
+  id: 163,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत का सबसे दक्षिणी राज्य कौन सा है?",
+  options: ["केरल", "तमिलनाडु", "कर्नाटक", "आंध्र प्रदेश"],
+  answer: 1,
+  explanation: "तमिलनाडु भारत का सबसे दक्षिणी राज्य है।"
+},
+{
+  id: 164,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत का सबसे ऊँचा पर्वत शिखर कौन सा है?",
+  options: ["नंदा देवी", "कंचनजंघा", "K2", "कामेत"],
+  answer: 1,
+  explanation: "कंचनजंघा भारत की सबसे ऊँची पर्वत चोटी है।"
+},
+{
+  id: 165,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "थार मरुस्थल मुख्य रूप से किस राज्य में है?",
+  options: ["गुजरात", "राजस्थान", "हरियाणा", "पंजाब"],
+  answer: 1,
+  explanation: "थार मरुस्थल का अधिकांश भाग राजस्थान में स्थित है।"
+},
+{
+  id: 166,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत की सबसे बड़ी मीठे पानी की झील कौन सी है?",
+  options: ["डल झील", "वूलर झील", "चिल्का झील", "सांभर झील"],
+  answer: 1,
+  explanation: "वूलर झील भारत की प्रमुख मीठे पानी की झीलों में से एक है।"
+},
+{
+  id: 167,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "नील नदी किस महाद्वीप में बहती है?",
+  options: ["एशिया", "अफ्रीका", "यूरोप", "दक्षिण अमेरिका"],
+  answer: 1,
+  explanation: "नील नदी अफ्रीका महाद्वीप में बहती है।"
+},
+{
+  id: 168,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "भूमध्य रेखा पृथ्वी को किन दो भागों में बाँटती है?",
+  options: ["पूर्व और पश्चिम", "उत्तर और दक्षिण", "ऊपर और नीचे", "स्थल और जल"],
+  answer: 1,
+  explanation: "भूमध्य रेखा पृथ्वी को उत्तरी और दक्षिणी गोलार्ध में बाँटती है।"
+},
+{
+  id: 169,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "भारत में मानसून मुख्य रूप से किस दिशा से आता है?",
+  options: ["दक्षिण-पश्चिम", "उत्तर-पूर्व", "उत्तर-पश्चिम", "दक्षिण-पूर्व"],
+  answer: 0,
+  explanation: "भारत में मुख्य दक्षिण-पश्चिम मानसून आता है।"
+},
+{
+  id: 170,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "विश्व का सबसे बड़ा महासागर कौन सा है?",
+  options: ["अटलांटिक महासागर", "हिंद महासागर", "प्रशांत महासागर", "आर्कटिक महासागर"],
+  answer: 2,
+  explanation: "प्रशांत महासागर विश्व का सबसे बड़ा महासागर है।"
+},
+
+{
+  id: 171,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत को स्वतंत्रता कब मिली?",
+  options: ["15 अगस्त 1947", "26 जनवरी 1950", "15 अगस्त 1945", "26 नवंबर 1949"],
+  answer: 0,
+  explanation: "भारत 15 अगस्त 1947 को स्वतंत्र हुआ।"
+},
+{
+  id: 172,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारतीय संविधान कब लागू हुआ?",
+  options: ["15 अगस्त 1947", "26 जनवरी 1950", "26 नवंबर 1949", "2 अक्टूबर 1950"],
+  answer: 1,
+  explanation: "भारतीय संविधान 26 जनवरी 1950 को लागू हुआ।"
+},
+{
+  id: 173,
+  category: "History",
+  difficulty: "Easy",
+  question: "महात्मा गांधी का जन्मदिन कब मनाया जाता है?",
+  options: ["14 नवंबर", "2 अक्टूबर", "15 अगस्त", "26 जनवरी"],
+  answer: 1,
+  explanation: "महात्मा गांधी का जन्म 2 अक्टूबर 1869 को हुआ था।"
+},
+{
+  id: 174,
+  category: "History",
+  difficulty: "Easy",
+  question: "जलियांवाला बाग हत्याकांड किस वर्ष हुआ था?",
+  options: ["1917", "1919", "1921", "1925"],
+  answer: 1,
+  explanation: "जलियांवाला बाग हत्याकांड 1919 में हुआ था।"
+},
+{
+  id: 175,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ?",
+  options: ["1930", "1935", "1942", "1947"],
+  answer: 2,
+  explanation: "भारत छोड़ो आंदोलन 1942 में शुरू हुआ था।"
+},
+{
+  id: 176,
+  category: "History",
+  difficulty: "Medium",
+  question: "दांडी मार्च किस आंदोलन से संबंधित था?",
+  options: ["असहयोग आंदोलन", "नमक सत्याग्रह", "भारत छोड़ो आंदोलन", "स्वदेशी आंदोलन"],
+  answer: 1,
+  explanation: "दांडी मार्च नमक सत्याग्रह से संबंधित था।"
+},
+{
+  id: 177,
+  category: "History",
+  difficulty: "Medium",
+  question: "भारत के पहले प्रधानमंत्री कौन थे?",
+  options: ["सरदार पटेल", "जवाहरलाल नेहरू", "राजेंद्र प्रसाद", "लाल बहादुर शास्त्री"],
+  answer: 1,
+  explanation: "जवाहरलाल नेहरू भारत के पहले प्रधानमंत्री थे।"
+},
+{
+  id: 178,
+  category: "History",
+  difficulty: "Medium",
+  question: "मौर्य साम्राज्य के प्रसिद्ध सम्राट कौन थे?",
+  options: ["अशोक", "अकबर", "हर्षवर्धन", "समुद्रगुप्त"],
+  answer: 0,
+  explanation: "सम्राट अशोक मौर्य साम्राज्य के प्रसिद्ध शासक थे।"
+},
+{
+  id: 179,
+  category: "History",
+  difficulty: "Medium",
+  question: "ताजमहल का निर्माण किस मुगल शासक ने करवाया?",
+  options: ["अकबर", "बाबर", "शाहजहाँ", "औरंगजेब"],
+  answer: 2,
+  explanation: "ताजमहल का निर्माण शाहजहाँ ने करवाया था।"
+},
+{
+  id: 180,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारतीय संविधान सभा के अध्यक्ष कौन थे?",
+  options: ["डॉ. राजेंद्र प्रसाद", "डॉ. बी. आर. अंबेडकर", "जवाहरलाल नेहरू", "सरदार पटेल"],
+  answer: 0,
+  explanation: "डॉ. राजेंद्र प्रसाद संविधान सभा के अध्यक्ष थे।"
+},
+
+{
+  id: 181,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "क्रिकेट में एक ओवर में कितनी गेंदें होती हैं?",
+  options: ["4", "5", "6", "8"],
+  answer: 2,
+  explanation: "मानक क्रिकेट में एक ओवर में 6 वैध गेंदें होती हैं।"
+},
+{
+  id: 182,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "फुटबॉल में एक टीम में मैदान पर कितने खिलाड़ी होते हैं?",
+  options: ["9", "10", "11", "12"],
+  answer: 2,
+  explanation: "फुटबॉल में एक टीम के 11 खिलाड़ी मैदान पर होते हैं।"
+},
+{
+  id: 183,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "ओलंपिक खेल कितने वर्षों के अंतराल पर होते हैं?",
+  options: ["2", "3", "4", "5"],
+  answer: 2,
+  explanation: "ग्रीष्मकालीन और शीतकालीन ओलंपिक चार-चार वर्ष के अंतराल पर आयोजित होते हैं।"
+},
+{
+  id: 184,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "हॉकी में गेंद को मारने के लिए किस उपकरण का उपयोग होता है?",
+  options: ["बैट", "रैकेट", "स्टिक", "ग्लव"],
+  answer: 2,
+  explanation: "हॉकी में गेंद को स्टिक से खेला जाता है।"
+},
+{
+  id: 185,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "टेनिस में शून्य अंक को क्या कहा जाता है?",
+  options: ["लव", "ड्यूस", "सेट", "फॉल्ट"],
+  answer: 0,
+  explanation: "टेनिस में शून्य स्कोर को Love कहा जाता है।"
+},
+{
+  id: 186,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "क्रिकेट में LBW का पूरा नाम क्या है?",
+  options: [
+    "Leg Before Wicket",
+    "Long Ball Wicket",
+    "Leg Ball Wide",
+    "Left Before Wicket"
+  ],
+  answer: 0,
+  explanation: "LBW का पूरा नाम Leg Before Wicket है।"
+},
+{
+  id: 187,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "शतरंज की बिसात पर कुल कितने खाने होते हैं?",
+  options: ["56", "64", "72", "81"],
+  answer: 1,
+  explanation: "शतरंज की बिसात पर 64 खाने होते हैं।"
+},
+{
+  id: 188,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बैडमिंटन में किस वस्तु को मारा जाता है?",
+  options: ["बॉल", "शटल कॉक", "डिस्क", "पक"],
+  answer: 1,
+  explanation: "बैडमिंटन में शटल कॉक को रैकेट से मारा जाता है।"
+},
+{
+  id: 189,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "क्रिकेट में विकेटों की संख्या कितनी होती है?",
+  options: ["8", "9", "10", "11"],
+  answer: 2,
+  explanation: "एक टीम की पारी में 10 विकेट गिर सकते हैं।"
+},
+{
+  id: 190,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बास्केटबॉल में गेंद को किस लक्ष्य में डालना होता है?",
+  options: ["नेट/बास्केट", "गोल पोस्ट", "विकेट", "पोल"],
+  answer: 0,
+  explanation: "बास्केटबॉल में गेंद को बास्केट में डालकर अंक बनाए जाते हैं।"
+},
+
+{
+  id: 191,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CPU का पूरा नाम क्या है?",
+  options: [
+    "Central Processing Unit",
+    "Computer Personal Unit",
+    "Central Program Utility",
+    "Control Processing User"
+  ],
+  answer: 0,
+  explanation: "CPU का पूरा नाम Central Processing Unit है।"
+},
+{
+  id: 192,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "HTML का पूरा नाम क्या है?",
+  options: [
+    "HyperText Markup Language",
+    "HighText Machine Language",
+    "Hyper Tool Markup Language",
+    "Home Text Management Language"
+  ],
+  answer: 0,
+  explanation: "HTML का पूरा नाम HyperText Markup Language है।"
+},
+{
+  id: 193,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "वेब पेज देखने के लिए किसका उपयोग किया जाता है?",
+  options: ["ब्राउज़र", "कंपाइलर", "कैलकुलेटर", "एंटीवायरस"],
+  answer: 0,
+  explanation: "वेब पेज देखने के लिए वेब ब्राउज़र का उपयोग किया जाता है।"
+},
+{
+  id: 194,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "JavaScript मुख्य रूप से किसके लिए प्रयोग की जाती है?",
+  options: [
+    "वेब पेज में इंटरैक्टिविटी",
+    "केवल फोटो प्रिंटिंग",
+    "केवल वीडियो रिकॉर्डिंग",
+    "केवल फाइल स्कैनिंग"
+  ],
+  answer: 0,
+  explanation: "JavaScript वेब पेजों में इंटरैक्टिव व्यवहार जोड़ने के लिए व्यापक रूप से उपयोग होती है।"
+},
+{
+  id: 195,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "RAM किस प्रकार की मेमोरी है?",
+  options: ["स्थायी", "अस्थायी", "केवल पढ़ने योग्य", "ऑप्टिकल"],
+  answer: 1,
+  explanation: "RAM कंप्यूटर की अस्थायी कार्यशील मेमोरी है।"
+},
+{
+  id: 196,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "URL का पूरा नाम क्या है?",
+  options: [
+    "Uniform Resource Locator",
+    "Universal Reading Link",
+    "User Resource Location",
+    "Uniform Routing Link"
+  ],
+  answer: 0,
+  explanation: "URL का पूरा नाम Uniform Resource Locator है।"
+},
+{
+  id: 197,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "Wi-Fi का उपयोग मुख्य रूप से किसके लिए होता है?",
+  options: [
+    "वायरलेस नेटवर्क कनेक्शन",
+    "कागज प्रिंट करने",
+    "बैटरी चार्ज करने",
+    "स्क्रीन साफ करने"
+  ],
+  answer: 0,
+  explanation: "Wi-Fi वायरलेस नेटवर्क कनेक्शन के लिए उपयोग होता है।"
+},
+{
+  id: 198,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "कंप्यूटर में SSD का उपयोग किस लिए किया जाता है?",
+  options: ["डेटा स्टोरेज", "आवाज बढ़ाने", "स्क्रीन चमकाने", "इंटरनेट बंद करने"],
+  answer: 0,
+  explanation: "SSD डेटा को स्टोर करने के लिए उपयोग किया जाता है।"
+},
+{
+  id: 199,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "AI का पूरा नाम क्या है?",
+  options: [
+    "Artificial Intelligence",
+    "Automatic Internet",
+    "Advanced Information",
+    "Artificial Internet"
+  ],
+  answer: 0,
+  explanation: "AI का पूरा नाम Artificial Intelligence है।"
+},
+{
+  id: 200,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "इंटरनेट पर सुरक्षित वेबसाइट के लिए सामान्यतः कौन सा प्रोटोकॉल प्रयोग होता है?",
+  options: ["HTTP", "HTTPS", "FTP", "SMTP"],
+  answer: 1,
+  explanation: "HTTPS वेब संचार को TLS के माध्यम से सुरक्षित करता है।"
+}

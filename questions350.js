@@ -1431,3 +1431,457 @@
   answer: 1,
   explanation: "HTTPS वेब संचार को TLS के माध्यम से सुरक्षित करता है।"
 }
+{
+  id: 201,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय खेल किसे कहा जाता है?",
+  options: ["क्रिकेट", "हॉकी", "फुटबॉल", "कबड्डी"],
+  answer: 1,
+  explanation: "भारत में हॉकी को लंबे समय से राष्ट्रीय खेल के रूप में लोकप्रिय रूप से बताया जाता रहा है।"
+},
+{
+  id: 202,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय फूल कौन सा है?",
+  options: ["गुलाब", "कमल", "चमेली", "गेंदा"],
+  answer: 1,
+  explanation: "कमल भारत का राष्ट्रीय फूल है।"
+},
+{
+  id: 203,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय वृक्ष कौन सा है?",
+  options: ["नीम", "बरगद", "पीपल", "आम"],
+  answer: 1,
+  explanation: "बरगद भारत का राष्ट्रीय वृक्ष है।"
+},
+{
+  id: 204,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय फल कौन सा है?",
+  options: ["सेब", "केला", "आम", "संतरा"],
+  answer: 2,
+  explanation: "आम को भारत का राष्ट्रीय फल माना जाता है।"
+},
+{
+  id: 205,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय जलीय जीव कौन सा है?",
+  options: ["गंगा डॉल्फिन", "मगरमच्छ", "व्हेल", "कछुआ"],
+  answer: 0,
+  explanation: "गंगा नदी की डॉल्फिन भारत का राष्ट्रीय जलीय जीव है।"
+},
+{
+  id: 206,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारतीय मुद्रा का नाम क्या है?",
+  options: ["रुपया", "डॉलर", "टका", "दिनार"],
+  answer: 0,
+  explanation: "भारत की मुद्रा भारतीय रुपया है।"
+},
+{
+  id: 207,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय गीत कौन सा है?",
+  options: ["जन गण मन", "वंदे मातरम्", "सारे जहाँ से अच्छा", "ऐ मेरे वतन"],
+  answer: 1,
+  explanation: "वंदे मातरम् भारत का राष्ट्रीय गीत है।"
+},
+{
+  id: 208,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय गान कौन सा है?",
+  options: ["वंदे मातरम्", "जन गण मन", "सारे जहाँ से अच्छा", "जननी जन्मभूमि"],
+  answer: 1,
+  explanation: "जन गण मन भारत का राष्ट्रीय गान है।"
+},
+{
+  id: 209,
+  category: "India GK",
+  difficulty: "Easy",
+  question: "भारत का राष्ट्रीय चिन्ह किससे लिया गया है?",
+  options: ["सांची स्तूप", "सारनाथ का सिंह स्तंभ", "लाल किला", "कुतुब मीनार"],
+  answer: 1,
+  explanation: "भारत का राजकीय प्रतीक सारनाथ के अशोक सिंह स्तंभ के शीर्ष से लिया गया है।"
+},
+{
+  id: 210,
+  category: "India GK",
+  difficulty: "Medium",
+  question: "भारत में कुल कितने राज्य हैं?",
+  options: ["26", "28", "29", "30"],
+  answer: 1,
+  explanation: "वर्तमान में भारत में 28 राज्य हैं।"
+},
+
+{
+  id: 211,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत की सबसे लंबी तटरेखा वाला राज्य कौन सा है?",
+  options: ["महाराष्ट्र", "गुजरात", "तमिलनाडु", "केरल"],
+  answer: 1,
+  explanation: "गुजरात की तटरेखा भारत के राज्यों में सबसे लंबी है।"
+},
+{
+  id: 212,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "गंगा नदी का उद्गम किस हिमनद से माना जाता है?",
+  options: ["सियाचिन", "गंगोत्री", "पिंडारी", "मिलम"],
+  answer: 1,
+  explanation: "भागीरथी नदी का उद्गम गंगोत्री हिमनद से होता है।"
+},
+{
+  id: 213,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत की सबसे बड़ी नदी द्वीप कौन सा है?",
+  options: ["माजुली", "दीव", "अंडमान", "मिनिकॉय"],
+  answer: 0,
+  explanation: "असम में स्थित माजुली ब्रह्मपुत्र नदी में एक प्रसिद्ध नदी द्वीप है।"
+},
+{
+  id: 214,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "अरावली पर्वतमाला मुख्य रूप से किस क्षेत्र में स्थित है?",
+  options: ["उत्तर भारत", "पश्चिम भारत", "पूर्वी भारत", "दक्षिण भारत"],
+  answer: 1,
+  explanation: "अरावली पर्वतमाला मुख्य रूप से राजस्थान और आसपास के पश्चिमी भारत में फैली है।"
+},
+{
+  id: 215,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "नर्मदा नदी किस दिशा में बहने वाली प्रमुख नदी है?",
+  options: ["पूर्व", "पश्चिम", "उत्तर", "दक्षिण"],
+  answer: 1,
+  explanation: "नर्मदा नदी सामान्यतः पश्चिम दिशा में बहती हुई अरब सागर में गिरती है।"
+},
+{
+  id: 216,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत का सबसे बड़ा पठार कौन सा है?",
+  options: ["दक्कन का पठार", "मालवा पठार", "छोटानागपुर पठार", "मेघालय पठार"],
+  answer: 0,
+  explanation: "दक्कन का पठार भारत के प्रमुख और बड़े पठारी क्षेत्रों में से एक है।"
+},
+{
+  id: 217,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "अंडमान और निकोबार द्वीप समूह किस जल क्षेत्र में स्थित है?",
+  options: ["अरब सागर", "बंगाल की खाड़ी", "लाल सागर", "कैरेबियन सागर"],
+  answer: 1,
+  explanation: "अंडमान और निकोबार द्वीप समूह बंगाल की खाड़ी में स्थित है।"
+},
+{
+  id: 218,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "लक्षद्वीप किस समुद्र में स्थित है?",
+  options: ["अरब सागर", "बंगाल की खाड़ी", "हिंद महासागर के पूर्वी भाग", "लाल सागर"],
+  answer: 0,
+  explanation: "लक्षद्वीप द्वीप समूह अरब सागर में स्थित है।"
+},
+{
+  id: 219,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "भारत में कर्क रेखा कितने राज्यों से होकर गुजरती है?",
+  options: ["6", "7", "8", "9"],
+  answer: 2,
+  explanation: "कर्क रेखा भारत के 8 राज्यों से होकर गुजरती है।"
+},
+{
+  id: 220,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "विश्व का सबसे बड़ा महाद्वीप कौन सा है?",
+  options: ["अफ्रीका", "एशिया", "यूरोप", "उत्तरी अमेरिका"],
+  answer: 1,
+  explanation: "एशिया क्षेत्रफल की दृष्टि से विश्व का सबसे बड़ा महाद्वीप है।"
+},
+
+{
+  id: 221,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ऑक्सीजन का रासायनिक संकेत क्या है?",
+  options: ["O", "Ox", "O2H", "C"],
+  answer: 0,
+  explanation: "ऑक्सीजन का रासायनिक संकेत O है।"
+},
+{
+  id: 222,
+  category: "Science",
+  difficulty: "Easy",
+  question: "सोने का रासायनिक संकेत क्या है?",
+  options: ["Ag", "Au", "Fe", "Go"],
+  answer: 1,
+  explanation: "सोने का रासायनिक संकेत Au है।"
+},
+{
+  id: 223,
+  category: "Science",
+  difficulty: "Easy",
+  question: "लोहे का रासायनिक संकेत क्या है?",
+  options: ["Ir", "Fe", "L", "I"],
+  answer: 1,
+  explanation: "लोहे का रासायनिक संकेत Fe है।"
+},
+{
+  id: 224,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पृथ्वी के वायुमंडल में सबसे अधिक कौन सी गैस है?",
+  options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+  answer: 1,
+  explanation: "पृथ्वी के वायुमंडल में नाइट्रोजन सबसे अधिक मात्रा में है।"
+},
+{
+  id: 225,
+  category: "Science",
+  difficulty: "Easy",
+  question: "प्रकाश की गति सबसे अधिक किस माध्यम में होती है?",
+  options: ["जल", "कांच", "निर्वात", "हवा"],
+  answer: 2,
+  explanation: "प्रकाश की अधिकतम गति निर्वात में होती है।"
+},
+{
+  id: 226,
+  category: "Science",
+  difficulty: "Medium",
+  question: "विद्युत प्रतिरोध की SI इकाई क्या है?",
+  options: ["वोल्ट", "एम्पियर", "ओम", "वाट"],
+  answer: 2,
+  explanation: "विद्युत प्रतिरोध की SI इकाई ओम है।"
+},
+{
+  id: 227,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मानव शरीर का सबसे बड़ा अंग कौन सा है?",
+  options: ["हृदय", "त्वचा", "यकृत", "फेफड़ा"],
+  answer: 1,
+  explanation: "त्वचा मानव शरीर का सबसे बड़ा अंग है।"
+},
+{
+  id: 228,
+  category: "Science",
+  difficulty: "Easy",
+  question: "लाल रक्त कोशिकाओं का मुख्य कार्य क्या है?",
+  options: ["ऑक्सीजन ले जाना", "भोजन पचाना", "हार्मोन बनाना", "हड्डी बनाना"],
+  answer: 0,
+  explanation: "लाल रक्त कोशिकाएँ मुख्य रूप से ऑक्सीजन का परिवहन करती हैं।"
+},
+{
+  id: 229,
+  category: "Science",
+  difficulty: "Medium",
+  question: "पौधों में जल का परिवहन मुख्यतः किस ऊतक द्वारा होता है?",
+  options: ["फ्लोएम", "जाइलम", "एपिडर्मिस", "कैंबियम"],
+  answer: 1,
+  explanation: "जाइलम पौधे में जल और खनिजों के परिवहन में मुख्य भूमिका निभाता है।"
+},
+{
+  id: 230,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मानव शरीर में रक्त को छानने का काम मुख्यतः कौन सा अंग करता है?",
+  options: ["हृदय", "गुर्दे", "फेफड़े", "मस्तिष्क"],
+  answer: 1,
+  explanation: "गुर्दे रक्त को छानकर अपशिष्ट पदार्थों को बाहर निकालने में मदद करते हैं।"
+},
+
+{
+  id: 231,
+  category: "History",
+  difficulty: "Easy",
+  question: "सुभाष चंद्र बोस को किस नाम से भी जाना जाता है?",
+  options: ["लोकमान्य", "नेताजी", "सरदार", "गुरुदेव"],
+  answer: 1,
+  explanation: "सुभाष चंद्र बोस को नेताजी के नाम से जाना जाता है।"
+},
+{
+  id: 232,
+  category: "History",
+  difficulty: "Easy",
+  question: "अकबर किस वंश का शासक था?",
+  options: ["मुगल", "मौर्य", "गुप्त", "चोल"],
+  answer: 0,
+  explanation: "अकबर मुगल साम्राज्य का प्रमुख शासक था।"
+},
+{
+  id: 233,
+  category: "History",
+  difficulty: "Easy",
+  question: "शिवाजी महाराज ने किस साम्राज्य की स्थापना की?",
+  options: ["मराठा साम्राज्य", "मुगल साम्राज्य", "गुप्त साम्राज्य", "चोल साम्राज्य"],
+  answer: 0,
+  explanation: "छत्रपति शिवाजी महाराज ने मराठा राज्य की स्थापना और विस्तार में महत्वपूर्ण भूमिका निभाई।"
+},
+{
+  id: 234,
+  category: "History",
+  difficulty: "Medium",
+  question: "प्लासी का युद्ध किस वर्ष हुआ था?",
+  options: ["1757", "1764", "1857", "1747"],
+  answer: 0,
+  explanation: "प्लासी का युद्ध 1757 में हुआ था।"
+},
+{
+  id: 235,
+  category: "History",
+  difficulty: "Medium",
+  question: "1857 का विद्रोह किस नाम से भी जाना जाता है?",
+  options: ["स्वदेशी आंदोलन", "प्रथम स्वतंत्रता संग्राम", "भारत छोड़ो आंदोलन", "नमक आंदोलन"],
+  answer: 1,
+  explanation: "1857 के विद्रोह को भारतीय इतिहास में प्रथम स्वतंत्रता संग्राम के रूप में भी जाना जाता है।"
+},
+{
+  id: 236,
+  category: "History",
+  difficulty: "Easy",
+  question: "रानी लक्ष्मीबाई किस स्थान से संबंधित थीं?",
+  options: ["झांसी", "दिल्ली", "लखनऊ", "पटना"],
+  answer: 0,
+  explanation: "रानी लक्ष्मीबाई झांसी की रानी थीं।"
+},
+{
+  id: 237,
+  category: "History",
+  difficulty: "Medium",
+  question: "अशोक किस वंश से संबंधित था?",
+  options: ["मौर्य", "गुप्त", "चालुक्य", "चोल"],
+  answer: 0,
+  explanation: "सम्राट अशोक मौर्य वंश से संबंधित था।"
+},
+{
+  id: 238,
+  category: "History",
+  difficulty: "Easy",
+  question: "कुतुब मीनार किस शहर में स्थित है?",
+  options: ["आगरा", "दिल्ली", "जयपुर", "लखनऊ"],
+  answer: 1,
+  explanation: "कुतुब मीनार दिल्ली में स्थित है।"
+},
+{
+  id: 239,
+  category: "History",
+  difficulty: "Easy",
+  question: "लाल किला किस शहर में स्थित है?",
+  options: ["दिल्ली", "मुंबई", "आगरा", "भोपाल"],
+  answer: 0,
+  explanation: "प्रसिद्ध लाल किला दिल्ली में स्थित है।"
+},
+{
+  id: 240,
+  category: "History",
+  difficulty: "Medium",
+  question: "साइमन कमीशन भारत कब आया था?",
+  options: ["1928", "1930", "1919", "1942"],
+  answer: 0,
+  explanation: "साइमन कमीशन 1928 में भारत आया था।"
+},
+
+{
+  id: 241,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "क्रिकेट में छक्का कितने रन का होता है?",
+  options: ["4", "5", "6", "7"],
+  answer: 2,
+  explanation: "क्रिकेट में बिना बाउंड्री पर गिरे सीधे बाउंड्री पार करने पर छक्का 6 रन का होता है।"
+},
+{
+  id: 242,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "क्रिकेट में चौका कितने रन का होता है?",
+  options: ["2", "3", "4", "6"],
+  answer: 2,
+  explanation: "क्रिकेट में चौका 4 रन का होता है।"
+},
+{
+  id: 243,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "फुटबॉल में गोलकीपर का मुख्य काम क्या है?",
+  options: ["गोल बचाना", "गोल करना", "रेफरी बनना", "कॉर्नर लेना"],
+  answer: 0,
+  explanation: "गोलकीपर का मुख्य कार्य विरोधी टीम के गोल को रोकना है।"
+},
+{
+  id: 244,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "विंबलडन किस खेल से संबंधित है?",
+  options: ["क्रिकेट", "टेनिस", "फुटबॉल", "हॉकी"],
+  answer: 1,
+  explanation: "विंबलडन टेनिस का प्रसिद्ध टूर्नामेंट है।"
+},
+{
+  id: 245,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "कबड्डी में एक टीम के कितने खिलाड़ी मैदान पर होते हैं?",
+  options: ["5", "6", "7", "8"],
+  answer: 2,
+  explanation: "मानक कबड्डी में एक टीम के 7 खिलाड़ी मैदान पर होते हैं।"
+},
+{
+  id: 246,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "मैरेथॉन दौड़ की आधिकारिक दूरी कितनी होती है?",
+  options: ["40.195 किमी", "41.195 किमी", "42.195 किमी", "43.195 किमी"],
+  answer: 2,
+  explanation: "मैरेथॉन की आधिकारिक दूरी 42.195 किलोमीटर है।"
+},
+{
+  id: 247,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "ओलंपिक के प्रतीक में कितने छल्ले होते हैं?",
+  options: ["4", "5", "6", "7"],
+  answer: 1,
+  explanation: "ओलंपिक प्रतीक में पाँच आपस में जुड़े छल्ले होते हैं।"
+},
+{
+  id: 248,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "शतरंज में राजा एक चाल में अधिकतम कितने खाने चल सकता है?",
+  options: ["1", "2", "3", "4"],
+  answer: 0,
+  explanation: "राजा सामान्यतः एक चाल में किसी भी दिशा में एक खाना चल सकता है।"
+},
+{
+  id: 249,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बेसबॉल में गेंद को मारने के लिए किसका उपयोग होता है?",
+  options: ["बैट", "स्टिक", "रैकेट", "क्यू"],
+  answer: 0,
+  explanation: "बेसबॉल में गेंद को बैट से मारा जाता है।"
+},
+{
+  id: 250,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "टेबल टेनिस में किस उपकरण से गेंद को मारा जाता है?",
+  options: ["बैट/पैडल", "ग्लव", "स्टिक", "हेलमेट"],
+  answer: 0,
+  explanation: "टेबल टेनिस में गेंद को पैडल या बैट से मारा जाता है।"
+}

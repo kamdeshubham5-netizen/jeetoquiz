@@ -1,4 +1,4 @@
-[
+const questionBank = [
   id: 51,
   category: "India GK",
   difficulty: "Easy",

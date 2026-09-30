@@ -1885,3 +1885,497 @@
   answer: 0,
   explanation: "टेबल टेनिस में गेंद को पैडल या बैट से मारा जाता है।"
 }
+{
+  id: 251,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पानी का रासायनिक सूत्र क्या है?",
+  options: ["CO2", "H2O", "O2", "NaCl"],
+  answer: 1,
+  explanation: "पानी का रासायनिक सूत्र H2O है।"
+},
+{
+  id: 252,
+  category: "Science",
+  difficulty: "Easy",
+  question: "सूर्य के सबसे निकट कौन सा ग्रह है?",
+  options: ["शुक्र", "पृथ्वी", "बुध", "मंगल"],
+  answer: 2,
+  explanation: "बुध सूर्य के सबसे निकट स्थित ग्रह है।"
+},
+{
+  id: 253,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मानव शरीर में रक्त को पंप करने वाला अंग कौन सा है?",
+  options: ["फेफड़ा", "हृदय", "यकृत", "गुर्दा"],
+  answer: 1,
+  explanation: "हृदय रक्त को पूरे शरीर में पंप करता है।"
+},
+{
+  id: 254,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पौधे प्रकाश संश्लेषण के दौरान किस गैस का उपयोग करते हैं?",
+  options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+  answer: 2,
+  explanation: "पौधे प्रकाश संश्लेषण में कार्बन डाइऑक्साइड का उपयोग करते हैं।"
+},
+{
+  id: 255,
+  category: "Science",
+  difficulty: "Medium",
+  question: "मानव शरीर का सबसे बड़ा अंग कौन सा है?",
+  options: ["हृदय", "त्वचा", "यकृत", "मस्तिष्क"],
+  answer: 1,
+  explanation: "त्वचा मानव शरीर का सबसे बड़ा अंग है।"
+},
+{
+  id: 256,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पृथ्वी का प्राकृतिक उपग्रह कौन सा है?",
+  options: ["सूर्य", "मंगल", "चंद्रमा", "शुक्र"],
+  answer: 2,
+  explanation: "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
+},
+{
+  id: 257,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ऑक्सीजन का रासायनिक प्रतीक क्या है?",
+  options: ["O", "Ox", "C", "N"],
+  answer: 0,
+  explanation: "ऑक्सीजन का रासायनिक प्रतीक O है।"
+},
+{
+  id: 258,
+  category: "Science",
+  difficulty: "Medium",
+  question: "विद्युत धारा की SI इकाई क्या है?",
+  options: ["वोल्ट", "वाट", "एम्पियर", "ओम"],
+  answer: 2,
+  explanation: "विद्युत धारा की SI इकाई एम्पियर है।"
+},
+{
+  id: 259,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ध्वनि किस माध्यम में सबसे तेज चलती है?",
+  options: ["ठोस", "द्रव", "गैस", "निर्वात"],
+  answer: 0,
+  explanation: "ध्वनि सामान्यतः ठोस पदार्थों में सबसे तेज चलती है।"
+},
+{
+  id: 260,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पानी सामान्य वायुदाब पर कितने डिग्री सेल्सियस पर उबलता है?",
+  options: ["50°C", "75°C", "100°C", "150°C"],
+  answer: 2,
+  explanation: "सामान्य वायुदाब पर पानी 100°C पर उबलता है।"
+},
+
+{
+  id: 261,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "पृथ्वी पर सबसे बड़ा महासागर कौन सा है?",
+  options: ["अटलांटिक महासागर", "प्रशांत महासागर", "हिंद महासागर", "आर्कटिक महासागर"],
+  answer: 1,
+  explanation: "प्रशांत महासागर पृथ्वी का सबसे बड़ा महासागर है।"
+},
+{
+  id: 262,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "सहारा मरुस्थल किस महाद्वीप में स्थित है?",
+  options: ["एशिया", "अफ्रीका", "यूरोप", "ऑस्ट्रेलिया"],
+  answer: 1,
+  explanation: "सहारा मरुस्थल अफ्रीका में स्थित है।"
+},
+{
+  id: 263,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत किस महाद्वीप में स्थित है?",
+  options: ["एशिया", "यूरोप", "अफ्रीका", "दक्षिण अमेरिका"],
+  answer: 0,
+  explanation: "भारत एशिया महाद्वीप में स्थित है।"
+},
+{
+  id: 264,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "विश्व की सबसे ऊंची पर्वत चोटी कौन सी है?",
+  options: ["K2", "कंचनजंगा", "माउंट एवरेस्ट", "नंदा देवी"],
+  answer: 2,
+  explanation: "माउंट एवरेस्ट समुद्र तल से विश्व की सबसे ऊंची पर्वत चोटी है।"
+},
+{
+  id: 265,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "भूमध्य रेखा पृथ्वी को किन दो भागों में बांटती है?",
+  options: ["पूर्व और पश्चिम", "उत्तर और दक्षिण", "ऊपर और नीचे", "भूमि और जल"],
+  answer: 1,
+  explanation: "भूमध्य रेखा पृथ्वी को उत्तरी और दक्षिणी गोलार्ध में बांटती है।"
+},
+{
+  id: 266,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत के पश्चिम में कौन सा सागर है?",
+  options: ["बंगाल की खाड़ी", "अरब सागर", "लाल सागर", "कैरेबियन सागर"],
+  answer: 1,
+  explanation: "भारत के पश्चिम में अरब सागर स्थित है।"
+},
+{
+  id: 267,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत के पूर्व में कौन सी खाड़ी है?",
+  options: ["अरब सागर", "बंगाल की खाड़ी", "फारस की खाड़ी", "हडसन की खाड़ी"],
+  answer: 1,
+  explanation: "भारत के पूर्व में बंगाल की खाड़ी स्थित है।"
+},
+{
+  id: 268,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "नील नदी किस महाद्वीप में बहती है?",
+  options: ["अफ्रीका", "एशिया", "यूरोप", "उत्तरी अमेरिका"],
+  answer: 0,
+  explanation: "नील नदी अफ्रीका महाद्वीप में बहती है।"
+},
+{
+  id: 269,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "जापान की राजधानी क्या है?",
+  options: ["ओसाका", "क्योटो", "टोक्यो", "हिरोशिमा"],
+  answer: 2,
+  explanation: "टोक्यो जापान की राजधानी है।"
+},
+{
+  id: 270,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "ऑस्ट्रेलिया की राजधानी क्या है?",
+  options: ["सिडनी", "मेलबर्न", "कैनबरा", "पर्थ"],
+  answer: 2,
+  explanation: "कैनबरा ऑस्ट्रेलिया की राजधानी है।"
+},
+
+{
+  id: 271,
+  category: "History",
+  difficulty: "Easy",
+  question: "ताजमहल किस शहर में स्थित है?",
+  options: ["दिल्ली", "आगरा", "जयपुर", "लखनऊ"],
+  answer: 1,
+  explanation: "ताजमहल उत्तर प्रदेश के आगरा शहर में स्थित है।"
+},
+{
+  id: 272,
+  category: "History",
+  difficulty: "Easy",
+  question: "लाल किला किस शहर में स्थित है?",
+  options: ["दिल्ली", "मुंबई", "पटना", "भोपाल"],
+  answer: 0,
+  explanation: "लाल किला दिल्ली में स्थित है।"
+},
+{
+  id: 273,
+  category: "History",
+  difficulty: "Easy",
+  question: "महात्मा गांधी का जन्म किस राज्य में हुआ था?",
+  options: ["गुजरात", "महाराष्ट्र", "बिहार", "राजस्थान"],
+  answer: 0,
+  explanation: "महात्मा गांधी का जन्म पोरबंदर, गुजरात में हुआ था।"
+},
+{
+  id: 274,
+  category: "History",
+  difficulty: "Medium",
+  question: "जलियांवाला बाग हत्याकांड किस वर्ष हुआ था?",
+  options: ["1905", "1919", "1925", "1930"],
+  answer: 1,
+  explanation: "जलियांवाला बाग हत्याकांड 1919 में हुआ था।"
+},
+{
+  id: 275,
+  category: "History",
+  difficulty: "Easy",
+  question: "दांडी मार्च किस आंदोलन से जुड़ा था?",
+  options: ["नमक सत्याग्रह", "भारत छोड़ो आंदोलन", "स्वदेशी आंदोलन", "चंपारण आंदोलन"],
+  answer: 0,
+  explanation: "दांडी मार्च नमक सत्याग्रह से जुड़ा था।"
+},
+{
+  id: 276,
+  category: "History",
+  difficulty: "Easy",
+  question: "कुतुब मीनार किस शहर में है?",
+  options: ["आगरा", "दिल्ली", "अजमेर", "जयपुर"],
+  answer: 1,
+  explanation: "कुतुब मीनार दिल्ली में स्थित है।"
+},
+{
+  id: 277,
+  category: "History",
+  difficulty: "Medium",
+  question: "अजंता की गुफाएं किस राज्य में स्थित हैं?",
+  options: ["महाराष्ट्र", "गुजरात", "बिहार", "ओडिशा"],
+  answer: 0,
+  explanation: "अजंता की गुफाएं महाराष्ट्र में स्थित हैं।"
+},
+{
+  id: 278,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ था?",
+  options: ["1930", "1935", "1942", "1947"],
+  answer: 2,
+  explanation: "भारत छोड़ो आंदोलन 1942 में शुरू हुआ था।"
+},
+{
+  id: 279,
+  category: "History",
+  difficulty: "Easy",
+  question: "सांची स्तूप किस राज्य में स्थित है?",
+  options: ["मध्य प्रदेश", "उत्तर प्रदेश", "राजस्थान", "महाराष्ट्र"],
+  answer: 0,
+  explanation: "सांची स्तूप मध्य प्रदेश में स्थित है।"
+},
+{
+  id: 280,
+  category: "History",
+  difficulty: "Medium",
+  question: "नालंदा प्राचीन विश्वविद्यालय किस राज्य में स्थित था?",
+  options: ["बिहार", "गुजरात", "केरल", "पंजाब"],
+  answer: 0,
+  explanation: "प्राचीन नालंदा विश्वविद्यालय वर्तमान बिहार में स्थित था।"
+},
+
+{
+  id: 281,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "क्रिकेट की एक टीम में मैदान पर कितने खिलाड़ी होते हैं?",
+  options: ["9", "10", "11", "12"],
+  answer: 2,
+  explanation: "क्रिकेट की एक टीम में मैदान पर 11 खिलाड़ी होते हैं।"
+},
+{
+  id: 282,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "फुटबॉल की एक टीम में मैदान पर कितने खिलाड़ी होते हैं?",
+  options: ["9", "10", "11", "12"],
+  answer: 2,
+  explanation: "सामान्य फुटबॉल मैच में एक टीम के 11 खिलाड़ी मैदान पर होते हैं।"
+},
+{
+  id: 283,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "विंबलडन किस खेल से संबंधित है?",
+  options: ["क्रिकेट", "टेनिस", "हॉकी", "फुटबॉल"],
+  answer: 1,
+  explanation: "विंबलडन टेनिस का प्रसिद्ध टूर्नामेंट है।"
+},
+{
+  id: 284,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "ओलंपिक खेलों का प्रतीक कितने छल्लों से बना है?",
+  options: ["4", "5", "6", "7"],
+  answer: 1,
+  explanation: "ओलंपिक प्रतीक में पांच आपस में जुड़े छल्ले होते हैं।"
+},
+{
+  id: 285,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बैडमिंटन में किस वस्तु को हिट किया जाता है?",
+  options: ["बॉल", "शटल कॉक", "पक", "डिस्क"],
+  answer: 1,
+  explanation: "बैडमिंटन में शटल कॉक को रैकेट से हिट किया जाता है।"
+},
+{
+  id: 286,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "हॉकी में गोल करने के लिए किस उपकरण का उपयोग किया जाता है?",
+  options: ["बैट", "हॉकी स्टिक", "रैकेट", "ग्लव"],
+  answer: 1,
+  explanation: "हॉकी में खिलाड़ी हॉकी स्टिक से गेंद को नियंत्रित करते हैं।"
+},
+{
+  id: 287,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "शतरंज की बिसात पर कुल कितने खाने होते हैं?",
+  options: ["54", "64", "72", "81"],
+  answer: 1,
+  explanation: "शतरंज की बिसात में 8 × 8 यानी 64 खाने होते हैं।"
+},
+{
+  id: 288,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "मैराथन दौड़ की आधिकारिक लंबाई कितनी होती है?",
+  options: ["21.0975 किमी", "30 किमी", "42.195 किमी", "50 किमी"],
+  answer: 2,
+  explanation: "मैराथन की आधिकारिक दूरी 42.195 किलोमीटर है।"
+},
+{
+  id: 289,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बास्केटबॉल में सामान्य रूप से एक टीम के कितने खिलाड़ी कोर्ट पर होते हैं?",
+  options: ["4", "5", "6", "7"],
+  answer: 1,
+  explanation: "बास्केटबॉल में एक टीम के 5 खिलाड़ी कोर्ट पर होते हैं।"
+},
+{
+  id: 290,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "टेबल टेनिस में किस उपकरण का उपयोग किया जाता है?",
+  options: ["रैकेट", "बैट और गेंद", "ग्लव", "स्टिक"],
+  answer: 0,
+  explanation: "टेबल टेनिस में खिलाड़ी छोटे रैकेट और गेंद का उपयोग करते हैं।"
+},
+
+{
+  id: 291,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CPU का पूरा नाम क्या है?",
+  options: [
+    "Central Processing Unit",
+    "Computer Personal Unit",
+    "Central Program Utility",
+    "Control Processing User"
+  ],
+  answer: 0,
+  explanation: "CPU का पूरा नाम Central Processing Unit है।"
+},
+{
+  id: 292,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "URL का पूरा नाम क्या है?",
+  options: [
+    "Uniform Resource Locator",
+    "Universal Record Link",
+    "United Resource Line",
+    "Uniform Routing Link"
+  ],
+  answer: 0,
+  explanation: "URL का पूरा नाम Uniform Resource Locator है।"
+},
+{
+  id: 293,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "HTML का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
+  options: [
+    "वेब पेज बनाने के लिए",
+    "वीडियो रिकॉर्ड करने के लिए",
+    "फोटो प्रिंट करने के लिए",
+    "बैटरी चार्ज करने के लिए"
+  ],
+  answer: 0,
+  explanation: "HTML वेब पेज की संरचना बनाने के लिए उपयोग किया जाता है।"
+},
+{
+  id: 294,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "USB का पूरा नाम क्या है?",
+  options: [
+    "Universal Serial Bus",
+    "United System Board",
+    "Universal System Backup",
+    "User Serial Base"
+  ],
+  answer: 0,
+  explanation: "USB का पूरा नाम Universal Serial Bus है।"
+},
+{
+  id: 295,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "कंप्यूटर में RAM किस प्रकार की मेमोरी है?",
+  options: [
+    "स्थायी मेमोरी",
+    "अस्थायी मेमोरी",
+    "केवल पढ़ने वाली मेमोरी",
+    "ऑप्टिकल मेमोरी"
+  ],
+  answer: 1,
+  explanation: "RAM अस्थायी या volatile मेमोरी होती है।"
+},
+{
+  id: 296,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "ईमेल भेजने के लिए सामान्यतः किसका उपयोग किया जाता है?",
+  options: ["इंटरनेट", "GPS", "Bluetooth", "Calculator"],
+  answer: 0,
+  explanation: "ईमेल भेजने और प्राप्त करने के लिए इंटरनेट का उपयोग किया जाता है।"
+},
+{
+  id: 297,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "AI का पूरा नाम क्या है?",
+  options: [
+    "Artificial Intelligence",
+    "Automatic Internet",
+    "Advanced Information",
+    "Artificial Internet"
+  ],
+  answer: 0,
+  explanation: "AI का पूरा नाम Artificial Intelligence है।"
+},
+{
+  id: 298,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "Wi-Fi मुख्य रूप से किसके लिए उपयोग किया जाता है?",
+  options: [
+    "वायरलेस नेटवर्क कनेक्शन",
+    "कागज प्रिंट करने",
+    "बैटरी चार्ज करने",
+    "स्क्रीन साफ करने"
+  ],
+  answer: 0,
+  explanation: "Wi-Fi वायरलेस नेटवर्क और इंटरनेट कनेक्शन के लिए उपयोग किया जाता है।"
+},
+{
+  id: 299,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "SSD का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
+  options: [
+    "डेटा स्टोर करने",
+    "आवाज बढ़ाने",
+    "स्क्रीन चमकाने",
+    "बैटरी ठंडी करने"
+  ],
+  answer: 0,
+  explanation: "SSD कंप्यूटर में डेटा स्टोर करने के लिए उपयोग होने वाला स्टोरेज डिवाइस है।"
+},
+{
+  id: 300,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "HTTPS में S किस बात को दर्शाता है?",
+  options: ["System", "Secure", "Server", "Software"],
+  answer: 1,
+  explanation: "HTTPS में S का अर्थ Secure है और यह सुरक्षित वेब संचार से संबंधित है।"
+},

@@ -452,3 +452,493 @@
   answer: 0,
   explanation: "AI का पूरा नाम Artificial Intelligence है।"
 },
+{
+  id: 101,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पानी का रासायनिक सूत्र क्या है?",
+  options: ["CO2", "H2O", "O2", "NaCl"],
+  answer: 1,
+  explanation: "पानी का रासायनिक सूत्र H2O है।"
+},
+{
+  id: 102,
+  category: "Science",
+  difficulty: "Easy",
+  question: "सूर्य के सबसे निकट कौन सा ग्रह है?",
+  options: ["शुक्र", "पृथ्वी", "बुध", "मंगल"],
+  answer: 2,
+  explanation: "बुध सूर्य के सबसे निकट ग्रह है।"
+},
+{
+  id: 103,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मनुष्य के शरीर में रक्त को पंप करने वाला अंग कौन सा है?",
+  options: ["फेफड़े", "हृदय", "यकृत", "गुर्दा"],
+  answer: 1,
+  explanation: "हृदय पूरे शरीर में रक्त पंप करता है।"
+},
+{
+  id: 104,
+  category: "Science",
+  difficulty: "Easy",
+  question: "पौधे प्रकाश संश्लेषण में किस गैस का उपयोग करते हैं?",
+  options: ["ऑक्सीजन", "नाइट्रोजन", "कार्बन डाइऑक्साइड", "हाइड्रोजन"],
+  answer: 2,
+  explanation: "पौधे प्रकाश संश्लेषण के दौरान कार्बन डाइऑक्साइड का उपयोग करते हैं।"
+},
+{
+  id: 105,
+  category: "Science",
+  difficulty: "Easy",
+  question: "मानव शरीर का सबसे बड़ा अंग कौन सा है?",
+  options: ["हृदय", "त्वचा", "फेफड़ा", "मस्तिष्क"],
+  answer: 1,
+  explanation: "त्वचा मानव शरीर का सबसे बड़ा अंग है।"
+},
+{
+  id: 106,
+  category: "Science",
+  difficulty: "Medium",
+  question: "पृथ्वी का प्राकृतिक उपग्रह कौन सा है?",
+  options: ["सूर्य", "मंगल", "चंद्रमा", "शुक्र"],
+  answer: 2,
+  explanation: "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
+},
+{
+  id: 107,
+  category: "Science",
+  difficulty: "Easy",
+  question: "वयस्क मानव शरीर में सामान्यतः कितनी हड्डियाँ होती हैं?",
+  options: ["196", "206", "216", "226"],
+  answer: 1,
+  explanation: "वयस्क मानव शरीर में सामान्यतः 206 हड्डियाँ होती हैं।"
+},
+{
+  id: 108,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ऑक्सीजन का रासायनिक प्रतीक क्या है?",
+  options: ["Ox", "O", "C", "Og"],
+  answer: 1,
+  explanation: "ऑक्सीजन का रासायनिक प्रतीक O है।"
+},
+{
+  id: 109,
+  category: "Science",
+  difficulty: "Medium",
+  question: "विद्युत धारा की SI इकाई क्या है?",
+  options: ["वोल्ट", "वाट", "एम्पियर", "ओम"],
+  answer: 2,
+  explanation: "विद्युत धारा की SI इकाई एम्पियर है।"
+},
+{
+  id: 110,
+  category: "Science",
+  difficulty: "Easy",
+  question: "ध्वनि किस माध्यम में सबसे तेज चलती है?",
+  options: ["निर्वात", "गैस", "द्रव", "ठोस"],
+  answer: 3,
+  explanation: "ध्वनि सामान्यतः ठोस पदार्थों में सबसे तेज चलती है।"
+},
+{
+  id: 111,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "विश्व का सबसे बड़ा महासागर कौन सा है?",
+  options: ["अटलांटिक महासागर", "हिंद महासागर", "प्रशांत महासागर", "आर्कटिक महासागर"],
+  answer: 2,
+  explanation: "प्रशांत महासागर विश्व का सबसे बड़ा महासागर है।"
+},
+{
+  id: 112,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत किस महाद्वीप में स्थित है?",
+  options: ["यूरोप", "एशिया", "अफ्रीका", "दक्षिण अमेरिका"],
+  answer: 1,
+  explanation: "भारत एशिया महाद्वीप में स्थित है।"
+},
+{
+  id: 113,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "विश्व का सबसे ऊँचा पर्वत कौन सा है?",
+  options: ["K2", "कंचनजंगा", "माउंट एवरेस्ट", "नंदा देवी"],
+  answer: 2,
+  explanation: "माउंट एवरेस्ट समुद्र तल से सबसे ऊँची पर्वत चोटी है।"
+},
+{
+  id: 114,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "भारत के दक्षिण में कौन सा महासागर है?",
+  options: ["प्रशांत महासागर", "हिंद महासागर", "अटलांटिक महासागर", "आर्कटिक महासागर"],
+  answer: 1,
+  explanation: "भारत के दक्षिण में हिंद महासागर स्थित है।"
+},
+{
+  id: 115,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "गंगा नदी का उद्गम किस हिमनद से माना जाता है?",
+  options: ["सियाचिन", "गंगोत्री", "पिंडारी", "जेमू"],
+  answer: 1,
+  explanation: "भागीरथी नदी का उद्गम गंगोत्री हिमनद क्षेत्र से होता है।"
+},
+{
+  id: 116,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "राजस्थान की राजधानी क्या है?",
+  options: ["उदयपुर", "जयपुर", "जोधपुर", "कोटा"],
+  answer: 1,
+  explanation: "जयपुर राजस्थान की राजधानी है।"
+},
+{
+  id: 117,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "मध्य प्रदेश की राजधानी क्या है?",
+  options: ["इंदौर", "जबलपुर", "भोपाल", "ग्वालियर"],
+  answer: 2,
+  explanation: "भोपाल मध्य प्रदेश की राजधानी है।"
+},
+{
+  id: 118,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "महाराष्ट्र की राजधानी क्या है?",
+  options: ["पुणे", "नागपुर", "मुंबई", "नासिक"],
+  answer: 2,
+  explanation: "मुंबई महाराष्ट्र की राजधानी है।"
+},
+{
+  id: 119,
+  category: "Geography",
+  difficulty: "Medium",
+  question: "थार मरुस्थल मुख्य रूप से भारत के किस राज्य में है?",
+  options: ["गुजरात", "राजस्थान", "हरियाणा", "पंजाब"],
+  answer: 1,
+  explanation: "थार मरुस्थल का अधिकांश भारतीय भाग राजस्थान में है।"
+},
+{
+  id: 120,
+  category: "Geography",
+  difficulty: "Easy",
+  question: "नील नदी किस महाद्वीप में बहती है?",
+  options: ["एशिया", "अफ्रीका", "यूरोप", "ऑस्ट्रेलिया"],
+  answer: 1,
+  explanation: "नील नदी अफ्रीका महाद्वीप में बहती है।"
+},
+{
+  id: 121,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत का स्वतंत्रता दिवस कब मनाया जाता है?",
+  options: ["26 जनवरी", "15 अगस्त", "2 अक्टूबर", "14 नवंबर"],
+  answer: 1,
+  explanation: "भारत का स्वतंत्रता दिवस 15 अगस्त को मनाया जाता है।"
+},
+{
+  id: 122,
+  category: "History",
+  difficulty: "Easy",
+  question: "भारत का गणतंत्र दिवस कब मनाया जाता है?",
+  options: ["15 अगस्त", "26 जनवरी", "2 अक्टूबर", "5 सितंबर"],
+  answer: 1,
+  explanation: "भारत का गणतंत्र दिवस 26 जनवरी को मनाया जाता है।"
+},
+{
+  id: 123,
+  category: "History",
+  difficulty: "Easy",
+  question: "महात्मा गांधी का जन्मदिन कब मनाया जाता है?",
+  options: ["14 नवंबर", "2 अक्टूबर", "15 अगस्त", "26 जनवरी"],
+  answer: 1,
+  explanation: "महात्मा गांधी का जन्मदिन 2 अक्टूबर को मनाया जाता है।"
+},
+{
+  id: 124,
+  category: "History",
+  difficulty: "Medium",
+  question: "भारत में दांडी मार्च किस आंदोलन से जुड़ा था?",
+  options: ["भारत छोड़ो आंदोलन", "नमक सत्याग्रह", "स्वदेशी आंदोलन", "चंपारण आंदोलन"],
+  answer: 1,
+  explanation: "दांडी मार्च नमक सत्याग्रह से जुड़ा था।"
+},
+{
+  id: 125,
+  category: "History",
+  difficulty: "Easy",
+  question: "कुतुब मीनार किस शहर में स्थित है?",
+  options: ["आगरा", "दिल्ली", "जयपुर", "लखनऊ"],
+  answer: 1,
+  explanation: "कुतुब मीनार दिल्ली में स्थित है।"
+},
+{
+  id: 126,
+  category: "History",
+  difficulty: "Easy",
+  question: "ताजमहल किस शहर में स्थित है?",
+  options: ["दिल्ली", "आगरा", "लखनऊ", "जयपुर"],
+  answer: 1,
+  explanation: "ताजमहल आगरा में स्थित है।"
+},
+{
+  id: 127,
+  category: "History",
+  difficulty: "Medium",
+  question: "अजंता की गुफाएँ किस राज्य में स्थित हैं?",
+  options: ["महाराष्ट्र", "गुजरात", "बिहार", "ओडिशा"],
+  answer: 0,
+  explanation: "अजंता की गुफाएँ महाराष्ट्र में स्थित हैं।"
+},
+{
+  id: 128,
+  category: "History",
+  difficulty: "Easy",
+  question: "सांची स्तूप किस राज्य में स्थित है?",
+  options: ["मध्य प्रदेश", "उत्तर प्रदेश", "राजस्थान", "बिहार"],
+  answer: 0,
+  explanation: "सांची स्तूप मध्य प्रदेश में स्थित है।"
+},
+{
+  id: 129,
+  category: "History",
+  difficulty: "Medium",
+  question: "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ था?",
+  options: ["1930", "1935", "1942", "1947"],
+  answer: 2,
+  explanation: "भारत छोड़ो आंदोलन 1942 में शुरू हुआ था।"
+},
+{
+  id: 130,
+  category: "History",
+  difficulty: "Medium",
+  question: "जलियांवाला बाग हत्याकांड किस वर्ष हुआ था?",
+  options: ["1915", "1919", "1922", "1930"],
+  answer: 1,
+  explanation: "जलियांवाला बाग हत्याकांड 1919 में हुआ था।"
+},
+{
+  id: 131,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "क्रिकेट में एक ओवर में कितनी गेंदें होती हैं?",
+  options: ["5", "6", "7", "8"],
+  answer: 1,
+  explanation: "मानक क्रिकेट में एक ओवर में 6 वैध गेंदें होती हैं।"
+},
+{
+  id: 132,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "फुटबॉल टीम में मैदान पर सामान्यतः कितने खिलाड़ी होते हैं?",
+  options: ["9", "10", "11", "12"],
+  answer: 2,
+  explanation: "फुटबॉल की एक टीम में मैदान पर 11 खिलाड़ी होते हैं।"
+},
+{
+  id: 133,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "ओलंपिक खेल कितने वर्षों के अंतराल पर आयोजित होते हैं?",
+  options: ["2 वर्ष", "3 वर्ष", "4 वर्ष", "5 वर्ष"],
+  answer: 2,
+  explanation: "ग्रीष्मकालीन और शीतकालीन ओलंपिक अलग-अलग चार वर्ष के चक्र में आयोजित होते हैं।"
+},
+{
+  id: 134,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बैडमिंटन में किस वस्तु को मारा जाता है?",
+  options: ["बॉल", "शटल कॉक", "डिस्क", "पक"],
+  answer: 1,
+  explanation: "बैडमिंटन में शटल कॉक का उपयोग किया जाता है।"
+},
+{
+  id: 135,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "टेनिस में शून्य अंक को क्या कहा जाता है?",
+  options: ["Nil", "Love", "Zero", "Duck"],
+  answer: 1,
+  explanation: "टेनिस में शून्य अंक को Love कहा जाता है।"
+},
+{
+  id: 136,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "हॉकी में गोल करने के लिए किसका उपयोग किया जाता है?",
+  options: ["रैकेट", "हॉकी स्टिक", "बैट", "ग्लव"],
+  answer: 1,
+  explanation: "हॉकी में खिलाड़ी हॉकी स्टिक से गेंद को खेलते हैं।"
+},
+{
+  id: 137,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "शतरंज की बिसात पर कुल कितने खाने होते हैं?",
+  options: ["54", "64", "72", "81"],
+  answer: 1,
+  explanation: "शतरंज की बिसात में 8 × 8 यानी 64 खाने होते हैं।"
+},
+{
+  id: 138,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "क्रिकेट में LBW का पूरा नाम क्या है?",
+  options: [
+    "Leg Before Wicket",
+    "Left Bat Wicket",
+    "Leg Bat Winner",
+    "Long Ball Wicket"
+  ],
+  answer: 0,
+  explanation: "LBW का पूरा नाम Leg Before Wicket है।"
+},
+{
+  id: 139,
+  category: "Sports",
+  difficulty: "Easy",
+  question: "बास्केटबॉल में सामान्यतः एक टीम के कितने खिलाड़ी कोर्ट पर होते हैं?",
+  options: ["4", "5", "6", "7"],
+  answer: 1,
+  explanation: "बास्केटबॉल में एक टीम के 5 खिलाड़ी कोर्ट पर होते हैं।"
+},
+{
+  id: 140,
+  category: "Sports",
+  difficulty: "Medium",
+  question: "फीफा विश्व कप किस खेल से संबंधित है?",
+  options: ["क्रिकेट", "फुटबॉल", "टेनिस", "हॉकी"],
+  answer: 1,
+  explanation: "फीफा विश्व कप फुटबॉल से संबंधित प्रतियोगिता है।"
+},
+{
+  id: 141,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "CPU का पूरा नाम क्या है?",
+  options: [
+    "Central Processing Unit",
+    "Computer Personal Unit",
+    "Central Program Utility",
+    "Control Processing User"
+  ],
+  answer: 0,
+  explanation: "CPU का पूरा नाम Central Processing Unit है।"
+},
+{
+  id: 142,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "HTML का पूरा नाम क्या है?",
+  options: [
+    "HyperText Markup Language",
+    "HighText Machine Language",
+    "Hyper Transfer Markup Link",
+    "Home Tool Markup Language"
+  ],
+  answer: 0,
+  explanation: "HTML का पूरा नाम HyperText Markup Language है।"
+},
+{
+  id: 143,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "WWW का पूरा नाम क्या है?",
+  options: [
+    "World Wide Web",
+    "World Web Window",
+    "Wide World Web",
+    "Web World Wide"
+  ],
+  answer: 0,
+  explanation: "WWW का पूरा नाम World Wide Web है।"
+},
+{
+  id: 144,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "कंप्यूटर में डेटा को स्थायी रूप से संग्रहित करने के लिए इनमें से किसका उपयोग किया जाता है?",
+  options: ["RAM", "SSD", "Cache", "Register"],
+  answer: 1,
+  explanation: "SSD डेटा को स्थायी रूप से संग्रहित करने वाला स्टोरेज उपकरण है।"
+},
+{
+  id: 145,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "AI का पूरा नाम क्या है?",
+  options: [
+    "Artificial Intelligence",
+    "Automatic Internet",
+    "Advanced Information",
+    "Artificial Internet"
+  ],
+  answer: 0,
+  explanation: "AI का पूरा नाम Artificial Intelligence है।"
+},
+{
+  id: 146,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "URL का पूरा नाम क्या है?",
+  options: [
+    "Uniform Resource Locator",
+    "Universal Record Link",
+    "Uniform Remote Link",
+    "Universal Resource Location"
+  ],
+  answer: 0,
+  explanation: "URL का पूरा नाम Uniform Resource Locator है।"
+},
+{
+  id: 147,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "इंटरनेट पर वेबसाइट देखने के लिए किस सॉफ्टवेयर का उपयोग किया जाता है?",
+  options: ["Browser", "Compiler", "Calculator", "Notepad"],
+  answer: 0,
+  explanation: "वेबसाइट देखने के लिए वेब ब्राउज़र का उपयोग किया जाता है।"
+},
+{
+  id: 148,
+  category: "Technology",
+  difficulty: "Medium",
+  question: "JavaScript का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
+  options: [
+    "वेब पेज में इंटरैक्टिविटी जोड़ने के लिए",
+    "केवल फोटो प्रिंट करने के लिए",
+    "केवल वीडियो रिकॉर्ड करने के लिए",
+    "केवल हार्ड डिस्क बनाने के लिए"
+  ],
+  answer: 0,
+  explanation: "JavaScript का उपयोग वेब पेजों में इंटरैक्टिव व्यवहार और डायनेमिक फीचर्स जोड़ने के लिए किया जाता है।"
+},
+{
+  id: 149,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "कंप्यूटर की अस्थायी मेमोरी कौन सी है?",
+  options: ["ROM", "RAM", "SSD", "DVD"],
+  answer: 1,
+  explanation: "RAM कंप्यूटर की अस्थायी और volatile memory है।"
+},
+{
+  id: 150,
+  category: "Technology",
+  difficulty: "Easy",
+  question: "Wi-Fi का उपयोग मुख्य रूप से किसके लिए किया जाता है?",
+  options: [
+    "वायरलेस नेटवर्क कनेक्शन",
+    "कागज प्रिंट करने",
+    "बैटरी चार्ज करने",
+    "स्क्रीन साफ करने"
+  ],
+  answer: 0,
+  explanation: "Wi-Fi का उपयोग वायरलेस नेटवर्क और इंटरनेट कनेक्शन के लिए किया जाता है।"
+},
